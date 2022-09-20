@@ -1,7 +1,9 @@
 # pre-syndromic-surveillance
 
 MUSES Software for Pre-Syndromic Disease Surveillance
+
 Open-Source Python Release
+
 Version 0.993 (last updated: 9/17/2022)
 
 Copyright 2022 Daniel B. Neill, Boyuan Chen, and Yi Wei (Machine Learning for Good Laboratory, New York University)
