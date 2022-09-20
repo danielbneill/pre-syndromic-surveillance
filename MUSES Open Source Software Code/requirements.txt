@@ -1,0 +1,8 @@
+flashtext==2.7
+matplotlib==3.5.1
+nltk==3.7
+numba==0.56.0
+numpy==1.22.3
+pandas==1.4.2
+Pillow==9.1.0
+regex==2022.7.25

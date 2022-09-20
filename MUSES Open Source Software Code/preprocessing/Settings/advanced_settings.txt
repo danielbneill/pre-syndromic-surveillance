@@ -1,0 +1,2 @@
+num_dynamic_topics,50
+num_static_topics_to_learn,50

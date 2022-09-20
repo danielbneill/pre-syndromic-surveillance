@@ -1,0 +1,1051 @@
+date,time,hospcode,agegroup,cc
+01/01/22,00:18:00,A,65-99,other specified congenital anomalies of eyelid
+01/01/22,00:22:00,B,18-64,schistosomiasis due to schistosoma haematobium
+01/01/22,02:06:00,C,65-99,closed fracture of shaft of clavicle
+01/01/22,02:36:00,C,00-17,unspecified anomaly of digestive system
+01/01/22,03:44:00,C,00-17,arthropathy associated with mycoses other specified sites
+01/01/22,05:01:00,A,65-99,edema
+01/01/22,06:08:00,B,18-64,nonallopathic lesions sacral region
+01/01/22,06:17:00,A,18-64,coronary atherosclerosis of native coronary artery
+01/01/22,07:34:00,B,18-64,tuberculosis of bladder unspecified
+01/01/22,09:12:00,A,18-64,hyperosmolality and or hypernatremia
+01/01/22,09:38:00,B,65-99,coxa valga congenital
+01/01/22,10:26:00,A,18-64,burn any degree involving less than 10 percent of body surface with third degree burn less than 10 percent or unspecified
+01/01/22,10:41:00,C,65-99,other stromal corneal dystrophies
+01/01/22,10:54:00,B,00-17,endometriosis in scar of skin
+01/01/22,11:07:00,C,65-99,first degree perineal laceration postpartum condition or complication
+01/01/22,12:23:00,C,65-99,anal sphincter tear complicating delivery not associated with third degree perineal laceration unspecified as to episode of care or not applicable
+01/01/22,12:43:00,B,00-17,open fractures involving skull or face with other bones with cerebral laceration and contusion unspecified state of consciousness
+01/01/22,13:12:00,C,65-99,graft versus host disease unspecified
+01/01/22,13:28:00,B,65-99,full thickness skin loss third degree nos of multiple specified sites
+01/01/22,13:33:00,C,00-17,anal and rectal polyp
+01/01/22,13:45:00,C,65-99,injury due to other specified forms of unconventional warfare
+01/01/22,15:34:00,C,18-64,burn any degree involving 60 69 percent of body surface with third degree burn 40 49
+01/01/22,16:22:00,C,00-17,mumps hepatitis
+01/01/22,16:55:00,B,65-99,moderate stage glaucoma
+01/01/22,17:45:00,B,00-17,closed fractures involving skull or face with other bones with other and unspecified intracranial hemorrhage with loss of consciousness of unspecified duration
+01/01/22,18:31:00,B,65-99,care involving unspecified rehabilitation procedure
+01/01/22,18:39:00,B,18-64,special screening for malignant neoplasms of small intestine
+01/01/22,19:32:00,A,00-17,anaplastic large cell lymphoma spleen
+01/01/22,19:34:00,B,65-99,medulloadrenal hyperfunction
+01/01/22,19:56:00,A,18-64,unspecified disorder of parathyroid gland
+01/01/22,20:25:00,C,65-99,femoral hernia without mention of obstruction or gangrene unilateral or unspecified recurrent
+01/01/22,21:50:00,C,65-99,other isolated or specific phobias
+01/01/22,23:12:00,A,00-17,acute miliary tuberculosis unspecified
+01/02/22,00:58:00,C,18-64,retrovirus unspecified
+01/02/22,01:14:00,A,65-99,unspecified schizophrenia in remission
+01/02/22,02:35:00,A,65-99,infertility female of unspecified origin
+01/02/22,02:59:00,C,65-99,brills disease
+01/02/22,03:00:00,B,18-64,excessive attrition unspecified
+01/02/22,03:20:00,C,65-99,other viral diseases in the mother antepartum condition or complication
+01/02/22,05:34:00,C,18-64,other night blindness
+01/02/22,06:04:00,C,00-17,minimal atrophy of the maxilla
+01/02/22,06:53:00,C,00-17,benign hypertensive heart disease with heart failure
+01/02/22,06:53:00,A,18-64,developmental dislocation of joint other specified sites
+01/02/22,07:15:00,C,18-64,c5 c7 level with central cord syndrome
+01/02/22,07:32:00,B,18-64,acute on chronic graft versus host disease
+01/02/22,09:05:00,C,65-99,suicide and self inflicted injury by suffocation by plastic bag
+01/02/22,09:11:00,B,65-99,cyst of thyroid
+01/02/22,10:01:00,C,65-99,unspecified surgical operations and procedures causing abnormal patient reaction or later complication without mention of misadventure at time of operation
+01/02/22,12:51:00,B,00-17,other syndromes affecting cervical region
+01/02/22,14:41:00,C,65-99,injury to blood vessels of unspecified site
+01/02/22,14:53:00,B,65-99,redundant prepuce and phimosis
+01/02/22,15:55:00,C,18-64,family history of malignant neoplasm of prostate
+01/02/22,16:50:00,A,00-17,acute venous embolism and thrombosis of other specified veins
+01/02/22,18:15:00,A,18-64,dietary surveillance and counseling
+01/02/22,18:15:00,A,18-64,iniencephaly
+01/02/22,19:34:00,B,18-64,tuberculosis of esophagus bacteriological or histological examination not done
+01/02/22,20:21:00,C,00-17,other psychotropic agents causing adverse effects in therapeutic use
+01/02/22,22:19:00,A,00-17,arthroscopic surgical procedure converted to open procedure
+01/02/22,22:29:00,C,00-17,malignant neoplasm of other sites of digestive system and intra abdominal organs
+01/02/22,23:06:00,B,00-17,circadian rhythm sleep disorder jet lag type
+01/02/22,23:06:00,A,65-99,terrorism involving firearms
+01/02/22,23:41:00,B,18-64,assault by hot liquid
+01/03/22,01:32:00,A,18-64,tuberculosis of ureter bacteriological or histological examination unknown at present
+01/03/22,02:31:00,A,18-64,general counseling on initiation of other contraceptive measures
+01/03/22,02:55:00,C,00-17,arthropathy unspecified shoulder region
+01/03/22,02:57:00,A,18-64,observation for other suspected mental condition
+01/03/22,04:01:00,A,65-99,catatonic type schizophrenia in remission
+01/03/22,04:24:00,C,65-99,subacute monocytic leukemia in relapse
+01/03/22,04:38:00,A,18-64,accident to watercraft causing submersion injuring swimmer
+01/03/22,06:12:00,B,18-64,acquired color vision deficiencies
+01/03/22,07:09:00,C,00-17,other and unspecified cerebral laceration and contusion without mention of open intracranial wound with prolonged more than 24 hours loss of consciousness and return to pre existing conscious level
+01/03/22,07:22:00,C,65-99,disorganized type schizophrenia subchronic with acute exacerbation
+01/03/22,08:19:00,C,18-64,von willebrands disease
+01/03/22,08:42:00,C,18-64,gonococcal endophthalmia
+01/03/22,10:33:00,A,00-17,peripheral t cell lymphoma lymph nodes of multiple sites
+01/03/22,10:48:00,C,18-64,equatorial staphyloma
+01/03/22,12:47:00,B,65-99,dysmetabolic syndrome x
+01/03/22,12:49:00,B,00-17,open fracture of vault of skull with subarachnoid subdural and extradural hemorrhage with moderate 1 24 hours loss of consciousness
+01/03/22,13:43:00,B,18-64,chronic venous embolism and thrombosis of axillary veins
+01/03/22,13:54:00,B,65-99,disproportion of other origin antepartum condition or complication
+01/03/22,14:03:00,A,00-17,effusion of joint hand
+01/03/22,14:46:00,A,00-17,simple type schizophrenia subchronic with acute exacerbation
+01/03/22,14:51:00,C,65-99,supervision of high risk pregnancy with other poor reproductive history
+01/03/22,15:54:00,B,65-99,acute duodenal ulcer without mention of hemorrhage or perforation with obstruction
+01/03/22,17:13:00,B,65-99,foreign body in esophagus
+01/03/22,17:36:00,A,00-17,transitory ileus of newborn
+01/03/22,18:38:00,C,65-99,poisoning by erythromycin and other macrolides
+01/03/22,19:52:00,C,65-99,dendritic keratitis
+01/03/22,22:44:00,A,00-17,peripheral vascular complications not elsewhere classified
+01/03/22,23:30:00,C,00-17,acute on chronic diastolic heart failure
+01/04/22,02:03:00,A,18-64,senile ectropion
+01/04/22,02:25:00,B,18-64,tuberculosis of hip unspecified
+01/04/22,02:57:00,B,18-64,other venous complications of pregnancy and the puerperium antepartum condition or complication
+01/04/22,03:03:00,C,00-17,severe nonproliferative diabetic retinopathy
+01/04/22,03:06:00,A,65-99,poisoning by antipruritics
+01/04/22,03:15:00,A,00-17,convergence insufficiency or palsy
+01/04/22,03:34:00,A,00-17,closed fracture of vault of skull with other and unspecified intracranial hemorrhage with concussion unspecified
+01/04/22,03:59:00,C,65-99,open fracture of shaft of fibula alone
+01/04/22,04:01:00,C,00-17,awaiting organ transplant status
+01/04/22,04:05:00,C,18-64,closed fracture of sacrum and coccyx with complete cauda equina lesion
+01/04/22,04:45:00,B,18-64,central nervous system malformation in fetus antepartum condition or complication
+01/04/22,04:56:00,B,18-64,other ventral hernia with gangrene
+01/04/22,05:51:00,C,18-64,chondrocalcinosis due to dicalcium phosphate crystals forearm
+01/04/22,05:55:00,B,65-99,multiple congenital anomalies so described
+01/04/22,08:17:00,A,18-64,rhesus isoimmunization unspecified as to episode of care or not applicable
+01/04/22,08:44:00,C,18-64,open fracture of mandible multiple sites
+01/04/22,09:28:00,A,18-64,striking against or struck accidentally by furniture without subsequent fall
+01/04/22,10:12:00,C,65-99,other causes of obstructed labor delivered with or without mention of antepartum condition
+01/04/22,11:07:00,B,00-17,irradiation cystitis
+01/04/22,11:32:00,A,00-17,chronic motor or vocal tic disorder
+01/04/22,12:12:00,A,18-64,macrocheilia
+01/04/22,13:49:00,A,18-64,infection by histoplasma duboisii without mention of manifestation
+01/04/22,13:52:00,B,18-64,spontaneous tension pneumothorax
+01/04/22,14:10:00,B,18-64,parasympatholytics anticholinergics and antimuscarinics and spasmolytics causing adverse effects in therapeutic use
+01/04/22,14:24:00,A,00-17,benign neoplasm of other and unspecified site in the digestive system
+01/04/22,14:36:00,B,18-64,psychomotor deficit
+01/04/22,15:08:00,A,18-64,explosion fire or burning in watercraft injuring swimmer
+01/04/22,15:18:00,A,65-99,poisoning by bcg vaccine
+01/04/22,15:30:00,C,18-64,poisoning by alkalizing agents
+01/04/22,15:43:00,A,65-99,erythema first degree of scalp any part
+01/04/22,17:07:00,C,18-64,incompetent cervix affecting fetus or newborn
+01/04/22,18:06:00,B,18-64,unicornuate uterus
+01/04/22,19:06:00,C,65-99,open fracture of shaft of femur
+01/04/22,19:09:00,A,18-64,unspecified anomaly of unspecified limb
+01/04/22,19:36:00,C,00-17,preauricular cyst
+01/04/22,19:53:00,B,65-99,fall in on or from aircraft injuring other person
+01/04/22,20:19:00,A,65-99,pulmonary arteriovenous malformation
+01/04/22,20:57:00,B,65-99,malignant neoplasm of spinal meninges
+01/04/22,22:08:00,A,65-99,other specified behavioral problem
+01/04/22,23:04:00,C,65-99,illegally induced abortion complicated by genital tract and pelvic infection unspecified
+01/05/22,00:17:00,B,00-17,benign neoplasm of skin of lip
+01/05/22,00:23:00,A,18-64,accidental fall from bed
+01/05/22,00:24:00,A,65-99,benign neoplasm of vulva
+01/05/22,01:53:00,A,65-99,hordeolum externum
+01/05/22,02:01:00,B,18-64,personal history of myeloid leukemia
+01/05/22,02:39:00,C,00-17,inversion of uterus postpartum condition or complication
+01/05/22,02:41:00,A,18-64,crushing injury of knee
+01/05/22,02:48:00,B,00-17,anal sphincter tear complicating delivery not associated with third degree perineal laceration postpartum condition or complication
+01/05/22,03:42:00,A,65-99,postmeasles pneumonia
+01/05/22,03:43:00,C,00-17,extreme immaturity unspecified weight
+01/05/22,04:51:00,B,00-17,terrorism secondary effects
+01/05/22,05:11:00,A,65-99,activity involving grass drills
+01/05/22,05:17:00,B,65-99,disturbances of sensation of smell and taste
+01/05/22,06:38:00,A,18-64,other cardiovascular diseases of mother delivered with mention of postpartum complication
+01/05/22,07:57:00,C,65-99,acute perichondritis of pinna
+01/05/22,09:39:00,C,18-64,other antimycobacterial drugs causing adverse effects in therapeutic use
+01/05/22,10:19:00,A,65-99,cholera vaccine causing adverse effects in therapeutic use
+01/05/22,10:41:00,B,00-17,trigonitis
+01/05/22,12:15:00,A,65-99,papyraceous fetus unspecified as to episode of care or not applicable
+01/05/22,12:59:00,B,00-17,arthropathy associated with other viral diseases ankle and foot
+01/05/22,13:26:00,B,18-64,closed fracture of base of skull without mention of intra cranial injury with moderate 1 24 hours loss of consciousness
+01/05/22,14:10:00,A,00-17,ulcerative chronic proctitis
+01/05/22,14:31:00,A,65-99,diabetes mellitus of mother complicating pregnancy childbirth or the puerperium unspecified as to episode of care or not applicable
+01/05/22,15:01:00,C,65-99,minimal atrophy of the mandible
+01/05/22,15:44:00,C,65-99,orchitis and epididymitis unspecified
+01/05/22,15:49:00,C,65-99,osteoarthrosis localized not specified whether primary or secondary shoulder region
+01/05/22,16:05:00,C,00-17,intraventricular hemorrhage grade iii
+01/05/22,16:50:00,C,00-17,other venereal diseases due to chlamydia trachomatis peritoneum
+01/05/22,17:26:00,A,18-64,exophthalmos unspecified
+01/05/22,18:08:00,B,65-99,hydrops fetalis due to isoimmunization
+01/05/22,18:43:00,A,65-99,sarcoidosis
+01/05/22,19:40:00,A,18-64,malnutrition of moderate degree
+01/05/22,19:54:00,A,00-17,syphilitic parkinsonism
+01/05/22,19:59:00,C,00-17,genital tract and pelvic infection following abortion or ectopic and molar pregnancies
+01/05/22,20:20:00,B,00-17,drusen degenerative
+01/05/22,20:20:00,B,00-17,acute laryngitis without mention of obstruction
+01/05/22,20:35:00,A,65-99,other and unspecified uterine inertia delivered with or without mention of antepartum condition
+01/05/22,20:39:00,B,00-17,accident due to changes in air pressure from unspecified cause
+01/05/22,20:46:00,A,18-64,iridoschisis
+01/05/22,20:54:00,B,18-64,injury to femoral nerve
+01/05/22,21:53:00,B,65-99,phlebitis and thrombophlebitis of upper extremities unspecified
+01/05/22,22:00:00,A,18-64,polyneuropathy due to drugs
+01/05/22,22:34:00,B,18-64,borderline personality disorder
+01/05/22,23:41:00,C,00-17,locked twins delivered with or without mention of antepartum condition
+01/06/22,01:45:00,B,00-17,pain in joint other specified sites
+01/06/22,02:47:00,C,65-99,pneumonia organism unspecified
+01/06/22,03:08:00,B,00-17,cochlear otosclerosis
+01/06/22,04:44:00,B,00-17,railway accident involving collision with rolling stock and injuring passenger on railway
+01/06/22,05:04:00,C,18-64,malignant neoplasm of dorsal surface of tongue
+01/06/22,05:14:00,C,65-99,primary tuberculous infection tubercle bacilli not found by bacteriological examination but tuberculosis confirmed histologically
+01/06/22,05:58:00,A,18-64,other enterovirus diseases of central nervous system
+01/06/22,06:13:00,C,18-64,other congenital or acquired abnormality of cervix delivered with mention of postpartum complication
+01/06/22,06:24:00,A,00-17,waterhouse friderichsen syndrome meningococcal
+01/06/22,06:31:00,B,65-99,cholesterin granuloma of middle ear and mastoid
+01/06/22,07:11:00,A,00-17,injury to unspecified site of nerve roots and spinal plexus
+01/06/22,07:37:00,A,65-99,syndactyly of toes with fusion of bone
+01/06/22,07:47:00,B,18-64,renal dialysis status
+01/06/22,09:55:00,A,65-99,benign neoplasm of epididymis
+01/06/22,15:24:00,B,18-64,other forms of placental separation and hemorrhage affecting fetus or newborn
+01/06/22,15:37:00,B,65-99,subarachnoid hemorrhage following injury with open intracranial wound with loss of consciousness of unspecified duration
+01/06/22,16:34:00,A,00-17,choroidal detachment unspecified
+01/06/22,17:25:00,C,18-64,injury due to legal intervention by cutting and piercing instrument
+01/06/22,17:31:00,B,18-64,hypopigmentation of eyelid
+01/06/22,17:53:00,B,65-99,acute endophthalmitis
+01/06/22,18:55:00,A,18-64,other motor vehicle nontraffic accident involving collision with moving object injuring other specified person
+01/06/22,19:00:00,C,65-99,genetic susceptibility to other malignant neoplasm
+01/06/22,20:19:00,A,65-99,subjective tinnitus
+01/06/22,20:27:00,A,18-64,unusually large fetus causing disproportion delivered with or without mention of antepartum condition
+01/06/22,20:40:00,B,18-64,drug induced psychotic disorder with hallucinations
+01/06/22,23:00:00,C,65-99,accidental poisoning by psychostimulants
+01/06/22,23:09:00,B,18-64,unspecified venous complication of pregnancy and the puerperium delivered with or without mention of antepartum condition
+01/07/22,00:05:00,B,65-99,malignant neoplasm of upper lobe bronchus or lung
+01/07/22,01:17:00,B,18-64,major depressive affective disorder single episode in full remission
+01/07/22,01:43:00,C,00-17,screening for rheumatoid arthritis
+01/07/22,02:32:00,B,18-64,villonodular synovitis lower leg
+01/07/22,03:28:00,B,00-17,closed fracture of anatomical neck of humerus
+01/07/22,03:56:00,A,00-17,poisoning by insulins and antidiabetic agents
+01/07/22,05:27:00,A,18-64,fitting and adjustment of peritoneal dialysis catheter
+01/07/22,05:34:00,B,65-99,limbar and corneal involvement in vernal conjunctivitis
+01/07/22,05:47:00,A,65-99,legal execution
+01/07/22,06:52:00,B,65-99,radicular cyst
+01/07/22,13:27:00,C,18-64,closed fracture of unspecified part of lower end of humerus
+01/07/22,13:33:00,C,00-17,aniridia
+01/07/22,13:35:00,C,65-99,engorgement of breasts associated with childbirth antepartum condition or complication
+01/07/22,13:37:00,A,00-17,late effects of cerebrovascular disease cognitive deficits
+01/07/22,14:18:00,C,18-64,deep necrosis of underlying tissues deep third degree without mention of loss of a body part two or more digits of hand including thumb
+01/07/22,16:44:00,A,00-17,secondary uterine inertia delivered with or without mention of antepartum condition
+01/07/22,17:55:00,A,65-99,personal history of malaria
+01/07/22,18:12:00,B,65-99,closed fracture of upper end of fibula with tibia
+01/07/22,18:53:00,C,18-64,other nonspecific abnormal histological findings
+01/07/22,19:12:00,B,18-64,fetal death from asphyxia or anoxia during labor
+01/07/22,19:33:00,A,65-99,other specified drug dependence episodic
+01/07/22,20:33:00,B,18-64,personal history of malignant neoplasm of renal pelvis
+01/07/22,21:57:00,C,65-99,other effects of external causes
+01/07/22,22:06:00,A,00-17,infection and inflammatory reaction due to other vascular device implant and graft
+01/07/22,22:50:00,B,00-17,shigella dysenteriae
+01/07/22,22:53:00,C,00-17,broad ligament laceration syndrome
+01/07/22,23:42:00,C,00-17,traumatic spondylopathy
+01/07/22,23:46:00,B,18-64,malignant carcinoid tumor of the jejunum
+01/08/22,00:04:00,B,65-99,dehydration
+01/08/22,00:11:00,B,65-99,nontraffic accident involving other off road motor vehicle injuring passenger on motorcycle
+01/08/22,01:56:00,C,18-64,open fracture of c5 c7 level with central cord syndrome
+01/08/22,02:52:00,A,00-17,conjunctival cysts
+01/08/22,04:24:00,C,00-17,shigella sonnei
+01/08/22,05:40:00,C,00-17,other specified personal history presenting hazards to health
+01/08/22,05:51:00,C,18-64,unspecified myeloid leukemia in relapse
+01/08/22,07:06:00,C,00-17,other joint derangement not elsewhere classified forearm
+01/08/22,07:12:00,C,00-17,other acute reactions to stress
+01/08/22,10:19:00,B,65-99,injury due to war operations from rubber bullets rifle
+01/08/22,10:49:00,C,18-64,suicide and self inflicted poisoning by tranquilizers and other psychotropic agents
+01/08/22,10:53:00,B,65-99,counseling for parent child problem unspecified
+01/08/22,11:15:00,C,00-17,legally induced abortion complicated by delayed or excessive hemorrhage complete
+01/08/22,11:33:00,A,18-64,injury by scald undetermined whether accidentally or purposely inflicted
+01/08/22,13:18:00,B,65-99,open wound of upper arm complicated
+01/08/22,14:49:00,A,65-99,hypertensive heart and chronic kidney disease unspecified without heart failure and with chronic kidney disease stage i through stage iv or unspecified
+01/08/22,15:00:00,A,00-17,other anterior pituitary disorders
+01/08/22,16:23:00,C,65-99,diabetic cataract
+01/08/22,16:27:00,C,00-17,juvenile dermatitis herpetiformis
+01/08/22,16:59:00,C,00-17,other vasodilators causing adverse effects in therapeutic use
+01/08/22,17:09:00,B,65-99,mismatched blood in transfusion
+01/08/22,17:10:00,B,65-99,cellulitis and abscess of neck
+01/08/22,18:09:00,B,18-64,venomous snakes and lizards causing poisoning and toxic reactions
+01/08/22,18:13:00,B,18-64,erythema first degree of neck
+01/08/22,18:34:00,C,18-64,osteopoikilosis
+01/08/22,18:36:00,B,18-64,ventral unspecified hernia without mention of obstruction or gangrene
+01/08/22,19:57:00,A,00-17,tuberculosis of spleen unspecified
+01/08/22,20:11:00,C,65-99,closed fracture of mandible condylar process
+01/08/22,20:46:00,C,18-64,other conditions of brain
+01/08/22,21:55:00,B,18-64,acute lymphoid leukemia without mention of having achieved remission
+01/08/22,22:45:00,B,65-99,other benign neoplasm of connective and other soft tissue of head face and neck
+01/08/22,23:00:00,C,18-64,nodular prostate with urinary obstruction
+01/08/22,23:47:00,C,00-17,severe pre eclampsia delivered with or without mention of antepartum condition
+01/09/22,00:10:00,A,65-99,other congenital anomalies of abdominal wall
+01/09/22,01:02:00,C,00-17,other open skull fracture with intracranial injury of other and unspecified nature with no loss of consciousness
+01/09/22,01:08:00,A,00-17,secondary syphilis of other viscera
+01/09/22,01:55:00,A,18-64,sublingual varices
+01/09/22,01:55:00,B,00-17,closed fracture of vault of skull with cerebral laceration and contusion with no loss of consciousness
+01/09/22,03:20:00,B,00-17,postvaricella encephalitis
+01/09/22,03:45:00,B,00-17,infantile cerebral palsy unspecified
+01/09/22,03:52:00,C,18-64,spastic hemiplegia and hemiparesis affecting nondominant side
+01/09/22,03:58:00,C,18-64,motor vehicle traffic accident due to loss of control without collision on the highway injuring motorcyclist
+01/09/22,04:41:00,C,18-64,anterior subcapsular polar senile cataract
+01/09/22,05:23:00,C,65-99,hodgkins sarcoma lymph nodes of multiple sites
+01/09/22,05:43:00,A,18-64,disruption of internal operation surgical wound
+01/09/22,05:44:00,B,00-17,benign carcinoid tumor of the duodenum
+01/09/22,06:17:00,A,65-99,myeloid sarcoma without mention of having achieved remission
+01/09/22,07:13:00,C,00-17,personal history urinary tract infection
+01/09/22,07:19:00,C,00-17,hyperaldosteronism unspecified
+01/09/22,08:56:00,B,65-99,activities involving baseball
+01/09/22,10:06:00,A,18-64,systolic heart failure unspecified
+01/09/22,10:58:00,A,00-17,effusion of joint multiple sites
+01/09/22,11:09:00,A,00-17,chronic depressive personality disorder
+01/09/22,12:17:00,A,18-64,jaw pain
+01/09/22,13:53:00,A,65-99,vaccination not carried out unspecified reason
+01/09/22,15:02:00,A,18-64,mammary duct ectasia
+01/09/22,16:37:00,C,18-64,unspecified zoonotic bacterial disease
+01/09/22,17:32:00,C,00-17,other specified malignant neoplasm of other specified sites of skin
+01/09/22,19:12:00,B,18-64,failure of lactation delivered with mention of postpartum complication
+01/09/22,19:29:00,A,65-99,other specified multiple gestation delivered with or without mention of antepartum condition
+01/09/22,19:34:00,C,18-64,demyelinating disease of central nervous system unspecified
+01/09/22,20:23:00,C,65-99,hyperplasia of prostate unspecified without urinary obstruction and other lower urinary symptoms luts
+01/09/22,20:43:00,B,00-17,other problems with head neck and trunk
+01/09/22,20:47:00,B,65-99,malignant neoplasm of meckels diverticulum
+01/09/22,21:50:00,C,18-64,injury to ulnar blood vessels
+01/10/22,00:54:00,C,65-99,burn of unspecified degree of back any part
+01/10/22,00:59:00,C,00-17,infection following other infusion injection transfusion or vaccination
+01/10/22,01:26:00,C,18-64,pulmonary artery coarctation and atresia
+01/10/22,02:06:00,A,65-99,unspecified episodic mood disorder
+01/10/22,02:35:00,A,00-17,tuberculosis of other specified joint unspecified
+01/10/22,03:02:00,B,00-17,chancroid
+01/10/22,03:24:00,A,18-64,accidental poisoning by freon
+01/10/22,03:51:00,C,65-99,local infection due to central venous catheter
+01/10/22,04:02:00,B,18-64,postgastric surgery syndromes
+01/10/22,04:13:00,C,00-17,other and combined forms of senile cataract
+01/10/22,04:19:00,C,18-64,vincents angina
+01/10/22,05:14:00,B,65-99,other and unspecified fall in water transport injuring water skier
+01/10/22,06:18:00,C,65-99,erythema first degree of other and multiple sites of trunk
+01/10/22,06:23:00,C,65-99,activities involving hand held interactive electronic device
+01/10/22,06:34:00,A,18-64,poisoning by unspecified agent primarily affecting skin and mucous membrane
+01/10/22,08:40:00,C,00-17,congenital bowing of femur
+01/10/22,08:41:00,A,18-64,anaplastic large cell lymphoma intra abdominal lymph nodes
+01/10/22,09:14:00,C,00-17,closed fracture of vault of skull without mention of intracranial injury with prolonged more than 24 hours loss of consciousness without return to pre existing conscious level
+01/10/22,09:49:00,A,65-99,congenital musculoskeletal deformities of skull face and jaw
+01/10/22,10:02:00,A,18-64,encounters for unspecified administrative purpose
+01/10/22,10:42:00,B,00-17,cardiac arrest
+01/10/22,11:12:00,C,18-64,ancylostomiasis due to ancylostoma ceylanicum
+01/10/22,12:03:00,C,18-64,articular cartilage disorder ankle and foot
+01/10/22,13:05:00,C,18-64,blister of foot and toe s infected
+01/10/22,13:14:00,C,00-17,malignant neoplasm of labia minora
+01/10/22,13:51:00,A,18-64,acquired total absence of pancreas
+01/10/22,15:31:00,C,00-17,intrinsic urethral sphincter deficiency isd
+01/10/22,18:02:00,A,65-99,deep necrosis of underlying tissues deep third degree with loss of a body part of multiple sites of upper limb except wrist and hand
+01/10/22,18:07:00,C,00-17,personal history of unspecified disorder of nervous system and sense organs
+01/10/22,18:13:00,A,18-64,cutaneous leishmaniasis ethiopian
+01/10/22,18:30:00,B,00-17,ulcer of thigh
+01/10/22,19:25:00,B,18-64,exfoliation due to erythematous condition involving 50 59 percent of body surface
+01/10/22,19:38:00,A,00-17,neutropenic splenomegaly
+01/10/22,20:11:00,A,00-17,unspecified organ or tissue replaced by transplant
+01/10/22,21:27:00,A,18-64,open fracture of t1 t6 level with other specified spinal cord injury
+01/10/22,21:33:00,C,18-64,pancreatic steatorrhea
+01/10/22,22:25:00,A,00-17,assault by corrosive or caustic substance except poisoning
+01/10/22,22:29:00,B,18-64,chondrocalcinosis unspecified other specified sites
+01/10/22,22:53:00,C,00-17,better eye severe vision impairment lesser eye profound vision impairment
+01/10/22,23:31:00,A,18-64,subdural hemorrhage following injury with open intracranial wound with prolonged more than 24 hours loss of consciousness without return to pre existing conscious level
+01/10/22,23:48:00,C,18-64,closed fracture of scapula unspecified part
+01/11/22,00:07:00,A,00-17,personal history of other specified diseases
+01/11/22,01:08:00,B,00-17,motor vehicle traffic accident involving re entrant collision with another motor vehicle injuring driver of motor vehicle other than motorcycle
+01/11/22,01:09:00,A,65-99,acute osteomyelitis shoulder region
+01/11/22,02:17:00,B,65-99,episcleritis periodica fugax
+01/11/22,03:58:00,A,00-17,surgical or other procedure not carried out because of patients decision
+01/11/22,05:19:00,A,18-64,reflux esophagitis
+01/11/22,05:49:00,A,00-17,personal history of malignant neoplasm of breast
+01/11/22,06:26:00,A,18-64,tuberculosis of thyroid gland tubercle bacilli not found in sputum by microscopy but found by bacterial culture
+01/11/22,06:36:00,A,18-64,fragile x syndrome
+01/11/22,08:09:00,C,18-64,excessive tuberosity of jaw
+01/11/22,08:51:00,A,18-64,hyperplasia of prostate unspecified with urinary obstruction and other lower urinary symptoms luts
+01/11/22,09:51:00,A,18-64,thrombotic microangiopathy
+01/11/22,10:14:00,A,18-64,alastrim
+01/11/22,10:32:00,B,65-99,coccidioidal meningitis
+01/11/22,10:34:00,A,00-17,secondary syphilis of other viscera
+01/11/22,10:38:00,B,18-64,intrinsic asthma with acute exacerbation
+01/11/22,11:22:00,B,00-17,inclusion body myositis
+01/11/22,13:08:00,B,18-64,poisoning by methylphenidate
+01/11/22,13:14:00,B,65-99,multiple sclerosis
+01/11/22,15:54:00,B,00-17,supervision of other high risk pregnancy
+01/11/22,16:00:00,A,00-17,burn any degree involving 40 49 percent of body surface with third degree burn 40 49
+01/11/22,16:15:00,A,18-64,toxic effect of lacrimogenic gas
+01/11/22,16:15:00,C,00-17,chronic venous embolism and thrombosis of subclavian veins
+01/11/22,17:22:00,C,65-99,fracture of calcaneus open
+01/11/22,18:04:00,C,65-99,animal drawn vehicle accident injuring rider of animal
+01/11/22,18:34:00,C,18-64,amphetamine or related acting sympathomimetic abuse continuous
+01/11/22,19:02:00,C,00-17,injury to multiple nerves of pelvic girdle and lower limb
+01/11/22,19:18:00,A,00-17,hodgkins granuloma unspecified site extranodal and solid organ sites
+01/11/22,19:59:00,A,18-64,confusional arousals
+01/11/22,21:56:00,B,18-64,alternating esotropia with a pattern
+01/11/22,23:00:00,C,65-99,neonatal hypoglycemia
+01/11/22,23:40:00,A,00-17,screening for rheumatoid arthritis
+01/11/22,23:53:00,A,00-17,other specified disorders of joint upper arm
+01/12/22,00:39:00,C,00-17,burn of mouth and pharynx
+01/12/22,01:01:00,A,00-17,open wound of hip and thigh with tendon involvement
+01/12/22,01:33:00,C,18-64,valgus deformity of wrist acquired
+01/12/22,02:41:00,A,00-17,developmental dislocation of joint site unspecified
+01/12/22,03:09:00,C,00-17,acute monocytic leukemia in relapse
+01/12/22,04:00:00,B,18-64,other specified disorders of joint hand
+01/12/22,06:06:00,B,18-64,accidental poisoning by other specified drugs
+01/12/22,06:08:00,C,00-17,drug induced myotonia
+01/12/22,06:19:00,A,00-17,psorospermiasis
+01/12/22,08:02:00,C,65-99,other disorders of bone and cartilage
+01/12/22,08:03:00,C,18-64,fussy infant baby
+01/12/22,08:14:00,C,18-64,nontraumatic compartment syndrome of abdomen
+01/12/22,09:55:00,B,65-99,tuberculous fibrosis of lung tubercle bacilli found in sputum by microscopy
+01/12/22,12:25:00,B,00-17,other transient neonatal disorders of coagulation
+01/12/22,13:24:00,C,18-64,abrasion or friction burn of trunk without mention of infection
+01/12/22,13:39:00,C,65-99,nontraumatic rupture of unspecified tendon
+01/12/22,13:43:00,A,65-99,hematospermia
+01/12/22,14:08:00,C,65-99,sealpox
+01/12/22,15:17:00,C,00-17,insulin pump status
+01/12/22,15:32:00,C,18-64,accident caused by explosion of unspecified pressure vessel
+01/12/22,16:17:00,C,65-99,burn any degree involving 70 79 percent of body surface with third degree burn 70 79
+01/12/22,17:05:00,A,00-17,precipitous drop in hematocrit
+01/12/22,17:24:00,C,00-17,open fracture of third cervical vertebra
+01/12/22,19:10:00,C,18-64,explosion fire or burning in watercraft injuring swimmer
+01/12/22,19:47:00,C,65-99,empyema with fistula
+01/12/22,22:38:00,C,18-64,unspecified noninflammatory disorder of vagina
+01/12/22,23:53:00,A,00-17,encephalitis and encephalomyelitis in viral diseases classified elsewhere
+01/13/22,01:35:00,A,65-99,subclavian steal syndrome
+01/13/22,02:08:00,A,00-17,disorders of soft tissue unspecified
+01/13/22,03:19:00,B,65-99,other fluid overload
+01/13/22,03:43:00,B,18-64,blisters epidermal loss second degree of hand unspecified site
+01/13/22,04:23:00,C,18-64,family history of malignant neoplasm of kidney
+01/13/22,05:51:00,A,18-64,anomalies of relationship of jaw to cranial base maxillary asymmetry
+01/13/22,05:57:00,C,18-64,geniculate herpes zoster
+01/13/22,06:44:00,C,65-99,acquired stenosis of external ear canal secondary to inflammation
+01/13/22,07:31:00,C,18-64,overflow incontinence
+01/13/22,07:46:00,A,65-99,tumors of body of uterus postpartum condition or complication
+01/13/22,09:05:00,B,18-64,osteogenesis imperfecta
+01/13/22,09:51:00,C,00-17,anomaly of middle ear except ossicles
+01/13/22,13:41:00,A,18-64,other degenerative disorders of globe
+01/13/22,14:29:00,C,65-99,chronic or unspecified gastrojejunal ulcer with perforation without mention of obstruction
+01/13/22,15:00:00,B,65-99,poisoning by insulins and antidiabetic agents
+01/13/22,15:01:00,B,65-99,nephritis and nephropathy not specified as acute or chronic with lesion of rapidly progressive glomerulonephritis
+01/13/22,15:03:00,B,00-17,unspecified condition involving the integument and temperature regulation of fetus and newborn
+01/13/22,15:10:00,B,00-17,aftercare for healing pathologic fracture of upper leg
+01/13/22,15:14:00,A,65-99,gangosa
+01/13/22,15:31:00,C,00-17,congenital cardiovascular disorders of mother antepartum condition or complication
+01/13/22,15:59:00,C,65-99,trichomonal vulvovaginitis
+01/13/22,16:21:00,C,18-64,injury to liver with open wound into cavity laceration major
+01/13/22,16:42:00,A,18-64,open wound of wrist with tendon involvement
+01/13/22,17:36:00,B,18-64,unspecified schizophrenia chronic
+01/13/22,17:42:00,A,00-17,sarcosporidiosis
+01/13/22,18:39:00,B,18-64,presbyacusis
+01/13/22,18:40:00,B,18-64,acute infection following transfusion infusion or injection of blood and blood products
+01/13/22,18:49:00,C,18-64,specific academic or work inhibition
+01/13/22,18:49:00,C,65-99,pinguecula
+01/13/22,18:56:00,B,18-64,malignant neoplasm of spleen not elsewhere classified
+01/13/22,19:22:00,C,18-64,pulmonary tuberculosis unspecified unspecified
+01/13/22,19:36:00,B,18-64,contusion of orbital tissues
+01/13/22,19:51:00,A,00-17,hyperplasia of renal artery
+01/13/22,22:33:00,B,65-99,pneumoconiosis due to other inorganic dust
+01/13/22,22:35:00,C,00-17,pathological dislocation of joint lower leg
+01/13/22,23:19:00,C,00-17,fitting and adjustment of unspecified prosthetic device
+01/14/22,00:55:00,A,65-99,focal retinitis and retinochoroiditis juxtapapillary
+01/14/22,01:08:00,C,18-64,sensory hearing loss bilateral
+01/14/22,01:17:00,B,00-17,varicose veins of lower extremities with ulcer and inflammation
+01/14/22,01:18:00,A,65-99,unspecified antepartum hemorrhage antepartum condition or complication
+01/14/22,03:43:00,B,18-64,hemiplegia unspecified affecting dominant side
+01/14/22,04:05:00,A,00-17,other and unspecified fall in water transport injuring occupant of small boat unpowered
+01/14/22,04:20:00,A,00-17,palpitations
+01/14/22,05:55:00,B,00-17,galactorrhea associated with childbirth postpartum condition or complication
+01/14/22,06:56:00,C,65-99,minimal atrophy of the mandible
+01/14/22,08:05:00,B,00-17,intestinal infection due to pseudomonas
+01/14/22,11:00:00,B,00-17,malignant neoplasm of endocrine gland site unspecified
+01/14/22,11:47:00,C,00-17,contact with and suspected exposure to other hazardous aromatic compounds
+01/14/22,13:08:00,A,00-17,appendicitis unqualified
+01/14/22,13:59:00,B,00-17,gonococcal seminal vesiculitis acute
+01/14/22,14:15:00,A,00-17,epilepsy complicating pregnancy childbirth or the puerperium delivered with mention of postpartum complication
+01/14/22,14:51:00,A,00-17,hodgkins paragranuloma intra abdominal lymph nodes
+01/14/22,14:59:00,B,00-17,prolapsed arm of fetus delivered with or without mention of antepartum condition
+01/14/22,16:27:00,C,65-99,open fracture of vault of skull with subarachnoid subdural and extradural hemorrhage unspecified state of consciousness
+01/14/22,16:45:00,A,65-99,acute alcoholic hepatitis
+01/14/22,17:47:00,C,00-17,poisoning by typhus vaccine
+01/14/22,19:02:00,A,00-17,corneal degeneration unspecified
+01/14/22,19:18:00,A,65-99,deep necrosis of underlying tissues deep third degree without mention of loss of a body part of multiple sites of upper limb except wrist and hand
+01/14/22,20:20:00,A,18-64,benign neoplasm of short bones of upper limb
+01/14/22,20:22:00,C,00-17,injury due to legal intervention by explosives
+01/14/22,21:07:00,A,18-64,secondary corneal edema
+01/14/22,21:29:00,A,18-64,unspecified infection of the breast and nipple associated with childbirth postpartum condition or complication
+01/14/22,22:20:00,C,65-99,corneal disorder due to contact lens
+01/14/22,23:32:00,C,00-17,undersocialized conduct disorder unaggressive type severe
+01/14/22,23:52:00,B,18-64,salmonella septicemia
+01/15/22,02:04:00,C,65-99,leprosy unspecified
+01/15/22,02:24:00,B,00-17,activities involving roller skating inline and skateboarding
+01/15/22,02:54:00,B,18-64,motor vehicle traffic accident involving re entrant collision with another motor vehicle injuring passenger on motorcycle
+01/15/22,03:14:00,B,65-99,infection by histoplasma capsulatum endocarditis
+01/15/22,04:29:00,A,65-99,bullous keratopathy
+01/15/22,05:11:00,C,65-99,observation and evaluation for suspected exposure to anthrax
+01/15/22,05:18:00,C,00-17,abnormality in fetal heart rate or rhythm unspecified as to time of onset
+01/15/22,05:35:00,A,65-99,antepartum hemorrhage associated with coagulation defects antepartum condition or complication
+01/15/22,06:29:00,C,00-17,other motor vehicle nontraffic accident while boarding and alighting injuring rider of animal occupant of animal drawn vehicle
+01/15/22,06:32:00,C,18-64,parasitic infestation of orbit
+01/15/22,06:53:00,B,65-99,contact with and suspected exposure to mold
+01/15/22,07:04:00,C,00-17,counseling for parent biological child problem
+01/15/22,08:32:00,A,65-99,deep necrosis of underlying tissues deep third degree without mention of loss of a body part of scalp any part
+01/15/22,08:58:00,A,65-99,closed fracture of unspecified part of neck of femur
+01/15/22,09:37:00,B,18-64,erythromelalgia
+01/15/22,09:40:00,B,65-99,acute kidney failure with lesion of renal medullary papillary necrosis
+01/15/22,09:53:00,A,00-17,body mass index 260 269 adult
+01/15/22,10:36:00,C,00-17,fatal familial insomnia
+01/15/22,12:02:00,B,65-99,spastic entropion
+01/15/22,12:08:00,B,00-17,injury due to war operations by unspecified marine weapon
+01/15/22,15:00:00,A,65-99,missed abortion
+01/15/22,15:08:00,A,18-64,other specified central nervous system stimulants causing adverse effects in therapeutic use
+01/15/22,16:03:00,B,18-64,kidney donors
+01/15/22,18:19:00,C,65-99,personal history of hodgkins disease
+01/15/22,18:43:00,A,18-64,fall in on or from railway train injuring passenger on railway
+01/15/22,19:48:00,B,18-64,poisoning by other antihypertensive agents
+01/15/22,19:49:00,C,00-17,herpes simplex with unspecified complication
+01/15/22,20:05:00,A,18-64,combinations of opioid type drug with any other drug dependence episodic
+01/15/22,20:42:00,C,18-64,open fracture of fifth cervical vertebra
+01/15/22,20:56:00,B,00-17,peripheral vertigo unspecified
+01/15/22,21:16:00,C,00-17,diabetes with unspecified complication type ii or unspecified type uncontrolled
+01/15/22,21:55:00,C,18-64,chronic ulcer of other specified sites
+01/16/22,00:18:00,C,65-99,unspecified abortion complicated by renal failure complete
+01/16/22,04:16:00,A,00-17,open fracture of vault of skull with subarachnoid subdural and extradural hemorrhage with loss of consciousness of unspecified duration
+01/16/22,04:42:00,A,18-64,absence of menstruation
+01/16/22,06:12:00,C,65-99,unspecified infective arthritis ankle and foot
+01/16/22,07:02:00,A,18-64,anterior subcapsular polar cataract
+01/16/22,07:27:00,A,18-64,unspecified disorder of cranial nerves
+01/16/22,10:35:00,C,18-64,other specified cardiac device in situ
+01/16/22,12:00:00,A,65-99,failure of sterile precautions during heart catheterization
+01/16/22,12:59:00,C,18-64,ulceration of intestine
+01/16/22,13:10:00,A,18-64,retinal detachment with retinal defect unspecified
+01/16/22,15:10:00,A,00-17,accident caused by air gun
+01/16/22,15:21:00,C,00-17,hodgkins disease lymphocytic histiocytic predominance spleen
+01/16/22,15:22:00,B,18-64,eosinophilic gastritis with hemorrhage
+01/16/22,16:17:00,A,18-64,other air leak
+01/16/22,17:08:00,A,00-17,open fracture of base of skull with intracranial injury of other and unspecified nature with brief less than one hour loss of consciousness
+01/16/22,17:21:00,A,00-17,melanoma of skin site unspecified
+01/16/22,18:12:00,C,00-17,alcohol abuse in remission
+01/16/22,19:04:00,C,00-17,acquired absence of both cervix and uterus
+01/16/22,19:07:00,A,65-99,t7 t12 level with complete lesion of spinal cord
+01/16/22,19:15:00,C,18-64,allergic arthritis site unspecified
+01/16/22,19:54:00,C,00-17,poor fetal growth affecting management of mother antepartum condition or complication
+01/16/22,21:22:00,A,65-99,fascioliasis
+01/16/22,21:40:00,A,18-64,closed fracture of larynx and trachea
+01/16/22,21:49:00,A,00-17,open fracture of seventh cervical vertebra
+01/16/22,21:59:00,B,00-17,cannabis dependence in remission
+01/16/22,22:13:00,B,65-99,transient hypertension of pregnancy unspecified as to episode of care or not applicable
+01/16/22,22:29:00,B,65-99,tuberculoma of spinal cord unspecified
+01/16/22,23:48:00,C,00-17,coronary atherosclerosis of native coronary artery
+01/17/22,00:29:00,C,65-99,hemorrhage in optic nerve sheaths
+01/17/22,01:18:00,C,18-64,malignant neoplasm of lower gum
+01/17/22,01:19:00,A,65-99,diabetes with other coma type i juvenile type not stated as uncontrolled
+01/17/22,01:31:00,B,18-64,erosion limited to enamel
+01/17/22,01:58:00,A,00-17,venous embolism and thrombosis of superficial vessels of lower extremity
+01/17/22,02:32:00,A,65-99,poisoning by local anti infectives and anti inflammatory drugs
+01/17/22,02:58:00,A,18-64,activities involving base jumping
+01/17/22,03:24:00,C,00-17,other preterm infants 500 749 grams
+01/17/22,04:12:00,C,18-64,malignant neoplasm of other parts of bronchus or lung
+01/17/22,04:19:00,A,18-64,subdural hemorrhage following injury with open intracranial wound with moderate 1 24 hours loss of consciousness
+01/17/22,04:42:00,B,65-99,reticulosarcoma intra abdominal lymph nodes
+01/17/22,06:15:00,A,00-17,hip joint replacement
+01/17/22,08:47:00,C,18-64,abdominal or pelvic swelling mass or lump right lower quadrant
+01/17/22,10:17:00,C,18-64,accident caused by ignition of clothing by unspecified source
+01/17/22,10:17:00,B,00-17,edema or excessive weight gain in pregnancy without mention of hypertension unspecified as to episode of care or not applicable
+01/17/22,11:00:00,B,65-99,malignant neoplasm of other sites of tongue
+01/17/22,11:13:00,B,00-17,chronic venous embolism and thrombosis of subclavian veins
+01/17/22,12:02:00,A,65-99,other rheumatoid arthritis with visceral or systemic involvement
+01/17/22,12:08:00,A,18-64,vomiting alone
+01/17/22,12:24:00,C,00-17,palindromic rheumatism shoulder region
+01/17/22,14:14:00,A,65-99,poisoning by measles vaccine
+01/17/22,15:08:00,A,18-64,accidental fall from chair
+01/17/22,16:07:00,B,65-99,burn of unspecified degree of knee
+01/17/22,16:44:00,B,65-99,deep necrosis of underlying tissues deep third degree with loss of a body part of two or more digits of hand including thumb
+01/17/22,17:19:00,A,65-99,situs inversus
+01/17/22,17:37:00,C,00-17,poisoning by unspecified gases and vapors undetermined whether accidentally or purposely inflicted
+01/17/22,18:20:00,C,65-99,open fracture of vault of skull with subarachnoid subdural and extradural hemorrhage with prolonged more than 24 hours loss of consciousness without return to pre existing conscious level
+01/17/22,18:30:00,C,00-17,hordeolum internum
+01/17/22,19:01:00,A,65-99,chondrocalcinosis due to dicalcium phosphate crystals hand
+01/17/22,20:13:00,B,00-17,hernia of unspecified site with obstruction
+01/17/22,21:43:00,C,18-64,cyclophoria
+01/17/22,23:14:00,A,00-17,neoplasm of uncertain behavior of histiocytic and mast cells
+01/18/22,02:18:00,C,00-17,uterovaginal prolapse incomplete
+01/18/22,02:54:00,C,00-17,open wound of back complicated
+01/18/22,03:13:00,C,00-17,bloodstream infection due to central venous catheter
+01/18/22,03:59:00,A,65-99,dementia in conditions classified elsewhere without behavioral disturbance
+01/18/22,04:24:00,B,18-64,superficial foreign body splinter of finger s without major open wound and without mention of infection
+01/18/22,04:45:00,B,18-64,pupillary abnormalities
+01/18/22,05:18:00,A,18-64,vaginal high risk human papillomavirus hpv dna test positive
+01/18/22,05:53:00,C,00-17,hemoglobinuria due to hemolysis from external causes
+01/18/22,06:14:00,B,18-64,prostatitis unspecified
+01/18/22,06:54:00,C,18-64,effusion of joint multiple sites
+01/18/22,08:15:00,B,18-64,deep phlebothrombosis antepartum unspecified as to episode of care or not applicable
+01/18/22,08:39:00,C,00-17,hypermature cataract
+01/18/22,09:57:00,B,00-17,injury to inferior mesenteric vein
+01/18/22,09:57:00,A,00-17,other joint derangement not elsewhere classified shoulder region
+01/18/22,10:03:00,C,00-17,open dislocation of acromioclavicular joint
+01/18/22,10:57:00,C,00-17,egg oocyte ovum donor age 35 and over designated recipient
+01/18/22,12:04:00,B,65-99,injury to pancreas tail without mention of open wound into cavity
+01/18/22,13:54:00,A,18-64,arthropathy associated with helminthiasis pelvic region and thigh
+01/18/22,15:03:00,C,18-64,malignant melanoma of skin of eyelid including canthus
+01/18/22,16:00:00,A,00-17,other named variants of lymphosarcoma and reticulosarcoma lymph nodes of axilla and upper limb
+01/18/22,16:18:00,A,18-64,other elevated white blood cell count
+01/18/22,18:55:00,B,00-17,torticollis unspecified
+01/18/22,19:24:00,A,65-99,hyperactive labyrinth unilateral
+01/18/22,19:34:00,C,18-64,other noncollision motor vehicle traffic accident injuring other specified person
+01/18/22,19:45:00,B,18-64,unspecified monocytic leukemia in remission
+01/18/22,19:48:00,A,00-17,injury by jumping or lying before moving object undetermined whether accidentally or purposely inflicted
+01/18/22,19:50:00,B,65-99,activities involving roller skating inline and skateboarding
+01/18/22,20:28:00,A,00-17,tuberculosis of bronchus unspecified
+01/18/22,21:10:00,B,18-64,other sprains and strains of ankle
+01/18/22,21:20:00,B,00-17,herpes zoster with unspecified nervous system complication
+01/18/22,21:58:00,C,00-17,cerebral artery occlusion unspecified without mention of cerebral infarction
+01/18/22,22:07:00,A,00-17,closed fracture of glenoid cavity and neck of scapula
+01/18/22,22:52:00,B,00-17,autonomic dysreflexia
+01/18/22,23:03:00,A,65-99,torus fracture of radius and ulna
+01/18/22,23:27:00,B,18-64,other specified miliary tuberculosis bacteriological or histological examination unknown at present
+01/18/22,23:46:00,B,18-64,other specified air transport accidents injuring crew of commercial aircraft powered in surface to surface transport
+01/19/22,00:15:00,C,65-99,other nonspecific findings on examination of urine
+01/19/22,00:32:00,A,18-64,vestibular neuronitis
+01/19/22,02:32:00,C,18-64,capsular contracture of breast implant
+01/19/22,03:17:00,A,18-64,traumatic pneumohemothorax without mention of open wound into thorax
+01/19/22,03:38:00,C,18-64,other combinations of cleft palate with cleft lip
+01/19/22,03:59:00,C,18-64,insect bite nonvenomous of finger s without mention of infection
+01/19/22,04:19:00,B,00-17,tuberculosis of mastoid tubercle bacilli not found by bacteriological examination but tuberculosis confirmed histologically
+01/19/22,04:34:00,A,00-17,egg oocyte ovum donor age 35 and over designated recipient
+01/19/22,04:38:00,C,18-64,granulations of postmastoidectomy cavity
+01/19/22,04:47:00,A,65-99,upper limb vessel anomaly
+01/19/22,05:05:00,A,00-17,tuberculosis of esophagus bacteriological or histological examination unknown at present
+01/19/22,06:15:00,A,18-64,other dislocation of knee open
+01/19/22,06:55:00,C,18-64,nontraumatic hematoma of soft tissue
+01/19/22,07:05:00,A,00-17,aniseikonia
+01/19/22,08:20:00,A,00-17,carbuncle and furuncle of foot
+01/19/22,09:48:00,A,18-64,unspecified intestinal malabsorption
+01/19/22,10:59:00,A,65-99,stomatitis and mucositis unspecified
+01/19/22,12:05:00,A,65-99,moderate dysplasia of cervix
+01/19/22,15:22:00,B,00-17,tuberculous abscess of brain unspecified
+01/19/22,15:32:00,B,00-17,poisoning by local astringents and local detergents
+01/19/22,15:38:00,A,00-17,black piedra
+01/19/22,16:33:00,C,65-99,fitting and adjustment of orthopedic devices
+01/19/22,16:36:00,A,00-17,retrolental fibroplasia
+01/19/22,17:21:00,B,65-99,neonatal jaundice due to delayed conjugation in diseases classified elsewhere
+01/19/22,17:42:00,B,18-64,abo incompatibility with delayed hemolytic transfusion reaction
+01/19/22,18:19:00,A,18-64,secondary focal hyperhidrosis
+01/19/22,18:52:00,B,65-99,anticoagulant antagonists and other coagulants causing adverse effects in therapeutic use
+01/19/22,19:37:00,C,18-64,other and unspecified complications of medical care not elsewhere classified
+01/19/22,20:05:00,B,65-99,acute myocardial infarction of unspecified site episode of care unspecified
+01/19/22,20:46:00,C,18-64,diabetes with other specified manifestations type i juvenile type not stated as uncontrolled
+01/19/22,20:58:00,B,18-64,neoplasm of uncertain behavior of pleura thymus and mediastinum
+01/19/22,21:25:00,B,00-17,fall in on or from aircraft injuring occupant of spacecraft
+01/19/22,21:25:00,B,18-64,t1 t6 level with unspecified spinal cord injury
+01/19/22,21:27:00,B,65-99,poisoning by mercurial diuretics
+01/19/22,23:23:00,A,00-17,intracranial injury of other and unspecified nature with open intracranial wound with concussion unspecified
+01/20/22,00:33:00,B,00-17,traumatic arthropathy site unspecified
+01/20/22,02:09:00,C,65-99,alcoholic cirrhosis of liver
+01/20/22,02:12:00,C,65-99,terrorism involving explosion of marine weapons
+01/20/22,02:24:00,C,65-99,closed fracture of vault of skull with other and unspecified intracranial hemorrhage with moderate 1 24 hours loss of consciousness
+01/20/22,04:51:00,A,00-17,deep transverse arrest and persistent occipitoposterior position unspecified as to episode of care or not applicable
+01/20/22,05:14:00,B,18-64,alcoholic fatty liver
+01/20/22,05:20:00,C,18-64,open fracture of sacrum and coccyx with other spinal cord injury
+01/20/22,05:49:00,C,65-99,schistosomiasis due to schistosoma mansoni
+01/20/22,05:54:00,A,18-64,other specified complications of pregnancy delivered with or without mention of antepartum condition
+01/20/22,06:21:00,A,00-17,posterior dislocation of lens
+01/20/22,06:46:00,B,65-99,diabetes with neurological manifestations type ii or unspecified type uncontrolled
+01/20/22,06:49:00,B,65-99,congenital chordee
+01/20/22,07:32:00,C,18-64,developmental dislocation of joint shoulder region
+01/20/22,07:55:00,C,00-17,neural hearing loss bilateral
+01/20/22,08:20:00,A,00-17,retracted nipple associated with childbirth antepartum condition or complication
+01/20/22,09:19:00,C,18-64,late syphilis latent
+01/20/22,09:53:00,B,18-64,central nervous system muscle tone depressants causing adverse effects in therapeutic use
+01/20/22,10:00:00,A,18-64,influenza with pneumonia
+01/20/22,10:13:00,C,00-17,dysphonia
+01/20/22,10:29:00,C,18-64,other specified disorders of biliary tract
+01/20/22,11:44:00,C,00-17,injury to innominate and subclavian veins
+01/20/22,12:32:00,B,18-64,aphasia
+01/20/22,12:43:00,C,00-17,accidents involving powered vehicles used solely within the buildings and premises of industrial or commercial establishment
+01/20/22,18:13:00,B,65-99,bipolar i disorder single manic episode moderate
+01/20/22,18:45:00,B,18-64,other mineral salts not elsewhere classified causing adverse effects in therapeutic use
+01/20/22,21:09:00,B,00-17,postinfectious myelitis
+01/20/22,23:02:00,C,65-99,infective dermatitis of eyelid of types resulting in deformity
+01/20/22,23:38:00,A,65-99,acute parametritis and pelvic cellulitis
+01/20/22,23:39:00,A,65-99,deep necrosis of underlying tissues deep third degree without mention of loss of a body part of ankle
+01/20/22,23:48:00,B,18-64,leptospirosis unspecified
+01/21/22,00:53:00,A,65-99,nutritional marasmus
+01/21/22,01:29:00,C,65-99,other causes of obstructed labor delivered with or without mention of antepartum condition
+01/21/22,02:41:00,B,18-64,urinary genital tract fistula female
+01/21/22,02:47:00,B,00-17,malignant neoplasm of bone and articular cartilage site unspecified
+01/21/22,04:48:00,C,00-17,secondary neuroendocrine tumor of peritoneum
+01/21/22,05:43:00,B,00-17,closed fracture of medial condyle of humerus
+01/21/22,05:44:00,B,00-17,miliary tuberculosis unspecified tubercle bacilli found in sputum by microscopy
+01/21/22,06:06:00,C,65-99,open fracture of sternal end of clavicle
+01/21/22,07:28:00,A,00-17,schizophreniform disorder subchronic with acute exacerbation
+01/21/22,07:58:00,A,00-17,closed fracture of base of skull with cerebral laceration and contusion with concussion unspecified
+01/21/22,09:34:00,A,00-17,other placental conditions affecting management of mother delivered with or without mention of antepartum condition
+01/21/22,09:36:00,C,18-64,diabetes mellitus of mother complicating pregnancy childbirth or the puerperium delivered with or without mention of antepartum condition
+01/21/22,09:52:00,B,65-99,contact with or exposure to venereal diseases
+01/21/22,10:01:00,A,18-64,benign essential hypertension
+01/21/22,11:20:00,B,00-17,enteric tularemia
+01/21/22,11:26:00,A,00-17,contusion of hip
+01/21/22,12:25:00,B,00-17,chromosomal abnormality in fetus affecting management of mother unspecified as to episode of care or not applicable
+01/21/22,12:35:00,B,00-17,diabetic macular edema
+01/21/22,13:01:00,B,00-17,closed fracture of capitate bone os magnum of wrist
+01/21/22,14:16:00,A,65-99,optic papillitis
+01/21/22,14:18:00,B,65-99,cleft lip unilateral incomplete
+01/21/22,19:25:00,C,65-99,taenia saginata infection
+01/21/22,20:05:00,C,65-99,other joint derangement not elsewhere classified ankle and foot
+01/21/22,21:03:00,B,65-99,injury to pancreas head without mention of open wound into cavity
+01/21/22,21:43:00,B,18-64,microglossia
+01/21/22,22:44:00,C,18-64,undersocialized conduct disorder unaggressive type moderate
+01/21/22,23:46:00,B,18-64,external constriction caused by other object
+01/22/22,00:25:00,A,18-64,open fracture of lower end of radius with ulna
+01/22/22,00:37:00,B,00-17,postoperative air leak
+01/22/22,00:51:00,B,65-99,herpes simplex otitis externa
+01/22/22,01:04:00,C,00-17,other extrapyramidal diseases and abnormal movement disorders
+01/22/22,01:11:00,B,65-99,secondary malignant neoplasm of other urinary organs
+01/22/22,01:28:00,A,18-64,acquired absence of organ genital organs
+01/22/22,01:54:00,B,65-99,abnormal glandular papanicolaou smear of vagina
+01/22/22,02:42:00,A,18-64,traumatic shock
+01/22/22,02:54:00,A,00-17,abrasion extending into dentine
+01/22/22,03:00:00,A,00-17,erythema first degree of axilla
+01/22/22,03:35:00,A,65-99,failed attempted abortion with unspecified complication
+01/22/22,04:32:00,A,18-64,face or brow presentation delivered with or without mention of antepartum condition
+01/22/22,04:34:00,B,65-99,ventricular fibrillation
+01/22/22,06:36:00,A,65-99,unspecified viral meningitis
+01/22/22,06:42:00,C,18-64,closed fracture of unspecified part of forearm
+01/22/22,07:10:00,C,65-99,burn of unspecified degree of other and multiple sites of trunk
+01/22/22,07:19:00,C,65-99,subdural hemorrhage following injury with open intracranial wound with brief less than one hour loss of consciousness
+01/22/22,09:11:00,B,00-17,spondylolisthesis
+01/22/22,09:44:00,A,18-64,dissection of aorta unspecified site
+01/22/22,09:46:00,B,65-99,chondrocalcinosis due to dicalcium phosphate crystals upper arm
+01/22/22,12:15:00,A,18-64,sunburn of second degree
+01/22/22,13:07:00,A,18-64,contact and allergic dermatitis of eyelid
+01/22/22,13:14:00,C,18-64,acute epiglottitis without mention of obstruction
+01/22/22,13:15:00,B,65-99,acute duodenal ulcer with perforation without mention of obstruction
+01/22/22,14:07:00,B,18-64,other venomous arthropods causing poisoning and toxic reactions
+01/22/22,14:16:00,C,00-17,hemiplegia unspecified affecting dominant side
+01/22/22,17:17:00,C,65-99,unspecified breast disorder
+01/22/22,17:23:00,C,18-64,closed fracture of eight or more ribs
+01/22/22,17:23:00,C,65-99,polyhydramnios unspecified as to episode of care or not applicable
+01/22/22,17:58:00,C,65-99,intestinal infection due to other gram negative bacteria
+01/22/22,20:53:00,A,00-17,carcinoma in situ of esophagus
+01/22/22,21:06:00,C,00-17,erythema multiforme minor
+01/23/22,00:09:00,A,65-99,unspecified fetal and placental problem affecting management of mother delivered with or without mention of antepartum condition
+01/23/22,00:48:00,B,18-64,other injury to small intestine without mention of open wound into cavity
+01/23/22,02:45:00,B,00-17,need for prophylactic vaccination and inoculation against viral hepatitis
+01/23/22,03:29:00,A,18-64,other specified fistulas involving female genital tract
+01/23/22,03:36:00,B,65-99,necatoriasis due to necator americanus
+01/23/22,03:53:00,A,00-17,pressure ulcer unspecified site
+01/23/22,04:05:00,A,00-17,perforation of gallbladder
+01/23/22,04:43:00,A,00-17,claw foot acquired
+01/23/22,04:44:00,B,18-64,unspecified lymphoid leukemia without mention of having achieved remission
+01/23/22,04:59:00,C,18-64,flat retinoschisis
+01/23/22,06:51:00,A,18-64,malignant neoplasm of cranial nerves
+01/23/22,07:56:00,C,18-64,malignant neoplasm of axillary tail of female breast
+01/23/22,08:08:00,A,65-99,suspected damage to fetus from viral disease in the mother affecting management of mother unspecified as to episode of care or not applicable
+01/23/22,08:40:00,B,00-17,long term current use of anticoagulants
+01/23/22,09:14:00,C,65-99,closed fracture of first cervical vertebra
+01/23/22,10:04:00,C,00-17,tuberculous pleurisy tubercle bacilli not found in sputum by microscopy but found by bacterial culture
+01/23/22,11:02:00,A,65-99,allergy to milk products
+01/23/22,11:12:00,B,00-17,subdural hemorrhage following injury with open intracranial wound with moderate 1 24 hours loss of consciousness
+01/23/22,11:12:00,C,18-64,other organic sleep related movement disorders
+01/23/22,11:22:00,B,65-99,other symptoms referable to joint other specified sites
+01/23/22,13:29:00,C,00-17,abrasion or friction burn of elbow forearm and wrist without mention of infection
+01/23/22,14:24:00,C,65-99,superficial foreign body splinter of elbow forearm and wrist without major open wound infected
+01/23/22,14:47:00,C,65-99,hirschsprungs disease and other congenital functional disorders of colon
+01/23/22,14:58:00,A,18-64,lipoma of skin and subcutaneous tissue of face
+01/23/22,16:19:00,A,18-64,tachypnea
+01/23/22,16:38:00,B,00-17,mechanical failure of instrument or apparatus during infusion and transfusion
+01/23/22,17:05:00,A,65-99,family disruption due to death of family member
+01/23/22,17:17:00,A,18-64,degenerative changes of ciliary body
+01/23/22,18:43:00,A,18-64,major puerperal infection delivered with mention of postpartum complication
+01/23/22,19:51:00,A,65-99,personal history of allergy to penicillin
+01/23/22,20:36:00,A,65-99,acute myocardial infarction of other specified sites initial episode of care
+01/23/22,22:05:00,C,65-99,infection by dematiacious fungi phaehyphomycosis
+01/23/22,22:11:00,B,18-64,other musculoskeletal symptoms referable to limbs
+01/23/22,23:56:00,A,65-99,necrotizing enterocolitis in newborn unspecified
+01/24/22,00:07:00,C,65-99,other retinal disorders
+01/24/22,00:25:00,C,18-64,glutethimide group causing adverse effects in therapeutic use
+01/24/22,01:02:00,B,65-99,observation for childhood or adolescent antisocial behavior
+01/24/22,02:20:00,A,18-64,paralysis unspecified
+01/24/22,02:25:00,A,18-64,traumatic amputation of leg s complete partial unilateral level not specified without mention of complication
+01/24/22,04:19:00,C,65-99,unspecified obstetrical trauma postpartum condition or complication
+01/24/22,05:25:00,A,18-64,endodontic underfill
+01/24/22,05:36:00,A,18-64,other spinal muscular atrophy
+01/24/22,07:02:00,A,18-64,hypertrophy benign of prostate with urinary obstruction and other lower urinary tract symptoms luts
+01/24/22,09:47:00,C,65-99,other motor vehicle nontraffic accident involving collision with stationary object injuring passenger in motor vehicle other than motorcycle
+01/24/22,10:01:00,B,65-99,mantle cell lymphoma intra abdominal lymph nodes
+01/24/22,10:17:00,A,65-99,burn any degree involving 90 percent or more of body surface with third degree burn 10 19
+01/24/22,10:42:00,A,18-64,articular cartilage disorder site unspecified
+01/24/22,11:30:00,C,65-99,fetal growth retardation unspecified 2 500 grams and over
+01/24/22,12:22:00,B,00-17,schizoid personality disorder unspecified
+01/24/22,12:31:00,B,65-99,contact with or exposure to rabies
+01/24/22,13:07:00,B,65-99,acute on chronic diastolic heart failure
+01/24/22,13:24:00,C,65-99,accidental poisoning by antibiotics
+01/24/22,13:39:00,C,65-99,gonococcal keratosis blennorrhagica
+01/24/22,14:28:00,B,18-64,hemiplegia unspecified affecting unspecified side
+01/24/22,14:30:00,A,65-99,prolapsed arm of fetus antepartum condition or complication
+01/24/22,14:39:00,B,65-99,nontraffic accident involving other off road motor vehicle injuring unspecified person
+01/24/22,14:53:00,A,18-64,removal of other organ partial total causing abnormal patient reaction or later complication without mention of misadventure at time of operation
+01/24/22,16:21:00,A,65-99,acute pharyngitis
+01/24/22,17:05:00,B,18-64,unspecified constitutional state in development
+01/24/22,18:06:00,C,18-64,other specified mosquito borne viral encephalitis
+01/24/22,18:54:00,A,00-17,unspecified vitamin b deficiency
+01/24/22,18:54:00,C,18-64,emphysema subcutaneous surgical resulting from procedure
+01/24/22,19:08:00,A,65-99,motor vehicle traffic accident involving collision with train injuring motorcyclist
+01/24/22,20:29:00,B,18-64,secondary malignant neoplasm of other digestive organs and spleen
+01/24/22,21:05:00,A,65-99,retained foreign body unspecified material
+01/24/22,21:13:00,B,18-64,unspecified anomaly of dental arch relationship
+01/24/22,21:24:00,A,65-99,syphilitic peritonitis
+01/24/22,21:26:00,C,65-99,pulmonary congestion and hypostasis
+01/24/22,21:34:00,B,18-64,supervision of other high risk pregnancy
+01/25/22,00:13:00,A,00-17,light for dates with signs of fetal malnutrition less than 500 grams
+01/25/22,01:07:00,A,00-17,injury due to war operations by fragments from other improvised explosive device ied
+01/25/22,01:24:00,B,00-17,toxic multinodular goiter without mention of thyrotoxic crisis or storm
+01/25/22,01:30:00,A,00-17,acute endophthalmitis
+01/25/22,04:21:00,B,00-17,oral aphthae
+01/25/22,04:25:00,A,00-17,secondary malignant neoplasm of retroperitoneum and peritoneum
+01/25/22,04:40:00,A,65-99,tuberculosis of bladder bacteriological or histological examination not done
+01/25/22,04:43:00,B,65-99,pneumonia in other infectious diseases classified elsewhere
+01/25/22,05:08:00,B,65-99,open wound of nasal cavity complicated
+01/25/22,05:59:00,C,65-99,open fracture of other bone of wrist
+01/25/22,06:29:00,A,18-64,unspecified surgical operations and procedures causing abnormal patient reaction or later complication without mention of misadventure at time of operation
+01/25/22,06:31:00,C,65-99,pathological resorption unspecified
+01/25/22,06:41:00,B,00-17,need for prophylactic vaccination and inoculation against influenza
+01/25/22,06:41:00,C,00-17,unspecified abnormality of chorion and amnion affecting fetus or newborn
+01/25/22,07:53:00,A,65-99,loose body in joint ankle and foot
+01/25/22,09:23:00,A,65-99,other emotional disturbances of childhood or adolescence
+01/25/22,10:25:00,C,00-17,railway accident involving derailment without antecedent collision injuring unspecified person
+01/25/22,11:09:00,C,18-64,other headache syndromes
+01/25/22,13:22:00,B,18-64,other specified transient cerebral ischemias
+01/25/22,13:49:00,B,18-64,blisters epidermal loss second degree of palm
+01/25/22,14:33:00,C,00-17,nonexudative senile macular degeneration
+01/25/22,15:17:00,B,65-99,malignant histiocytosis spleen
+01/25/22,15:34:00,A,00-17,unspecified osteomyelitis upper arm
+01/25/22,15:38:00,C,65-99,abnormal innervation syndrome of eyelid
+01/25/22,15:46:00,A,65-99,open wound of other and unspecified parts of genital organs external without mention of complication
+01/25/22,15:51:00,A,65-99,cerebrovascular disorders in the puerperium delivered with mention of postpartum complication
+01/25/22,16:27:00,C,18-64,personal history of failed moderate sedation
+01/25/22,18:21:00,A,18-64,cortex cerebral contusion with open intracranial wound unspecified state of consciousness
+01/25/22,19:10:00,B,00-17,light for dates with signs of fetal malnutrition 2 000 2 499 grams
+01/25/22,20:09:00,A,65-99,fourth degree perineal laceration unspecified as to episode of care or not applicable
+01/25/22,21:18:00,B,18-64,acute osteomyelitis forearm
+01/25/22,21:23:00,A,00-17,circadian rhythm sleep disorder of nonorganic origin
+01/26/22,00:24:00,A,65-99,benign neoplasm of scapula and long bones of upper limb
+01/26/22,00:27:00,C,65-99,streptococcus infection in conditions classified elsewhere and of unspecified site streptococcus group g
+01/26/22,01:40:00,A,00-17,abrasion or friction burn of elbow forearm and wrist infected
+01/26/22,01:54:00,A,18-64,arthropathy associated with other viral diseases shoulder region
+01/26/22,02:56:00,C,00-17,variant creutzfeldt jakob disease
+01/26/22,03:33:00,A,00-17,other bulbus cordis anomalies and anomalies of cardiac septal closure
+01/26/22,04:13:00,C,00-17,other acquired deformities of finger
+01/26/22,05:13:00,A,00-17,pedestrian hit by rolling stock
+01/26/22,05:16:00,C,00-17,other keratoconjunctivitis
+01/26/22,05:39:00,A,00-17,full thickness skin loss third degree not otherwise specified of breast
+01/26/22,09:03:00,A,18-64,injury to colon unspecified site without mention of open wound into cavity
+01/26/22,10:43:00,A,00-17,abrasion or friction burn of hip thigh leg and ankle infected
+01/26/22,11:06:00,C,18-64,other open skull fracture with subarachnoid subdural and extradural hemorrhage with moderate 1 24 hours loss of consciousness
+01/26/22,11:24:00,B,00-17,unspecified hemorrhoids without mention of complication
+01/26/22,11:33:00,B,18-64,measles with other specified complications
+01/26/22,12:34:00,A,00-17,closed fracture of vault of skull with subarachnoid subdural and extradural hemorrhage with prolonged more than 24 hours loss of consciousness and return to pre existing conscious level
+01/26/22,12:34:00,C,65-99,late effects of cerebrovascular disease hemiplegia affecting nondominant side
+01/26/22,12:35:00,B,18-64,disorders of meninges not elsewhere classified
+01/26/22,13:42:00,B,00-17,pregnancy examination or test pregnancy unconfirmed
+01/26/22,16:00:00,B,65-99,accidents caused by powered household appliances and implements
+01/26/22,16:20:00,A,65-99,abnormal coagulation profile
+01/26/22,17:08:00,A,00-17,sezarys disease intra abdominal lymph nodes
+01/26/22,17:14:00,B,65-99,pulmonary tuberculosis unspecified tubercle bacilli not found in sputum by microscopy but found by bacterial culture
+01/26/22,17:23:00,A,65-99,posterior dislocation of lens
+01/26/22,18:37:00,B,65-99,anomalous atrioventricular excitation
+01/26/22,19:33:00,B,18-64,other disorders of choroid
+01/26/22,21:17:00,A,65-99,acquired absence of organ eye
+01/26/22,23:22:00,C,18-64,secondary malignant neoplasm of other digestive organs and spleen
+01/27/22,00:06:00,C,65-99,alcohol induced psychotic disorder with hallucinations
+01/27/22,00:11:00,A,65-99,hodgkins disease lymphocytic depletion intrapelvic lymph nodes
+01/27/22,01:09:00,A,65-99,cyclothymic disorder
+01/27/22,01:43:00,B,65-99,striking against or struck accidentally by a crowd by collective fear or panic
+01/27/22,02:09:00,A,00-17,acute poliomyelitis unspecified poliovirus type ii
+01/27/22,02:24:00,C,00-17,sparganosis larval diphyllobothriasis
+01/27/22,02:34:00,C,00-17,complications of reattached upper extremity other and unspecified
+01/27/22,03:01:00,C,18-64,major depressive affective disorder recurrent episode moderate
+01/27/22,03:04:00,B,65-99,observation and evaluation of newborn for suspected respiratory condition
+01/27/22,03:48:00,C,65-99,unspecified acquired deformity of hip
+01/27/22,04:34:00,B,65-99,cerebellar or brain stem contusion without mention of open intracranial wound with loss of consciousness of unspecified duration
+01/27/22,06:20:00,A,18-64,disorders of sacrum
+01/27/22,10:52:00,B,18-64,contusion of lower leg
+01/27/22,11:27:00,A,00-17,other injury to pelvic organs postpartum condition or complication
+01/27/22,12:34:00,C,18-64,poisoning by skeletal muscle relaxants
+01/27/22,12:45:00,B,00-17,acute myocardial infarction of inferolateral wall episode of care unspecified
+01/27/22,12:59:00,A,65-99,illegally induced abortion with other specified complications complete
+01/27/22,13:25:00,B,00-17,cerebellar or brain stem laceration without mention of open intracranial wound with prolonged more than 24 hours loss of consciousness and return to pre existing conscious level
+01/27/22,13:52:00,C,65-99,deep necrosis of underlying tissues deep third degree without mention of loss of a body part of neck
+01/27/22,14:39:00,B,65-99,latent syphilis unspecified
+01/27/22,16:22:00,B,65-99,machinery accident in water transport injuring dockers stevedores
+01/27/22,17:58:00,B,00-17,peripheral vertigo unspecified
+01/27/22,19:53:00,A,65-99,nontraffic accident involving other off road motor vehicle injuring pedestrian
+01/27/22,20:16:00,A,18-64,infection with microorganisms with resistance to multiple antimycobacterial agents
+01/27/22,20:54:00,A,00-17,single liveborn born before admission to hospital
+01/27/22,21:30:00,C,18-64,open fracture of vault of skull without mention of intracranial injury with moderate 1 24 hours loss of consciousness
+01/27/22,23:43:00,C,65-99,pupillary abnormalities
+01/27/22,23:50:00,C,00-17,exercise counseling
+01/28/22,00:35:00,C,00-17,osteoarthrosis localized not specified whether primary or secondary pelvic region and thigh
+01/28/22,00:39:00,C,00-17,swelling mass or lump in chest
+01/28/22,00:52:00,A,65-99,infertility female of uterine origin
+01/28/22,01:12:00,B,18-64,other human herpesvirus infection
+01/28/22,01:28:00,B,65-99,late congenital syphilis latent
+01/28/22,01:38:00,C,18-64,tuberculosis of eye tubercle bacilli not found by bacteriological examination but tuberculosis confirmed histologically
+01/28/22,01:46:00,B,18-64,local astringents and local detergents causing adverse effects in therapeutic use
+01/28/22,02:32:00,B,65-99,family history of malignant neoplasm bladder
+01/28/22,02:36:00,A,00-17,sprain of interphalangeal joint toe
+01/28/22,02:55:00,C,18-64,multiple sclerosis
+01/28/22,04:22:00,C,65-99,genitourinary tuberculosis unspecified unspecified
+01/28/22,04:56:00,B,18-64,unspecified allergic alveolitis and pneumonitis
+01/28/22,07:07:00,A,00-17,open wound of other and unspecified parts of trunk complicated
+01/28/22,07:19:00,A,00-17,injury due to war operations from incendiary bullet
+01/28/22,07:38:00,A,18-64,retinoschisis unspecified
+01/28/22,08:01:00,C,65-99,multiple gestation following elective fetal reduction delivered with or without mention of antepartum condition
+01/28/22,08:25:00,B,65-99,chronic paroxysmal hemicrania
+01/28/22,08:43:00,A,65-99,other motor vehicle nontraffic accident involving collision with moving object injuring motorcyclist
+01/28/22,09:08:00,A,18-64,other late effects of cerebrovascular disease vertigo
+01/28/22,09:27:00,B,65-99,other gonococcal heart disease
+01/28/22,09:50:00,C,18-64,transient visual loss
+01/28/22,10:46:00,C,65-99,coal workers pneumoconiosis
+01/28/22,11:01:00,B,18-64,palindromic rheumatism hand
+01/28/22,11:11:00,C,00-17,histoplasmosis unspecified meningitis
+01/28/22,11:26:00,C,18-64,injury to ovarian vein
+01/28/22,11:29:00,A,00-17,vascular anomalies
+01/28/22,11:49:00,A,00-17,unspecified nerve root and plexus disorder
+01/28/22,12:02:00,B,00-17,hepatomegaly
+01/28/22,12:53:00,A,65-99,atresia salivary duct
+01/28/22,15:04:00,C,18-64,iatrogenic thyroiditis
+01/28/22,15:10:00,C,65-99,nontraffic accident involving motor driven snow vehicle injuring other specified person
+01/28/22,16:08:00,A,65-99,blisters epidermal loss second degree of upper arm
+01/28/22,17:03:00,A,00-17,anomaly of great veins unspecified
+01/28/22,17:45:00,C,18-64,carcinoma in situ of other and unspecified parts of intestine
+01/28/22,17:58:00,A,65-99,thumb amputation status
+01/28/22,18:31:00,C,18-64,malignant neoplasm of sigmoid colon
+01/28/22,18:34:00,C,18-64,tuberculoma of brain bacteriological or histological examination not done
+01/28/22,19:21:00,C,18-64,infertility female of uterine origin
+01/28/22,19:43:00,B,18-64,inguinal hernia without mention of obstruction or gangrene bilateral not specified as recurrent
+01/28/22,20:21:00,B,00-17,other venereal diseases due to chlamydia trachomatis anus and rectum
+01/28/22,20:52:00,B,00-17,injury to trigeminal nerve
+01/28/22,22:07:00,C,00-17,psychotic disorder with hallucinations in conditions classified elsewhere
+01/28/22,23:36:00,C,18-64,hysteria unspecified
+01/29/22,00:11:00,A,18-64,other emphysema
+01/29/22,01:03:00,B,00-17,body mass index 320 329 adult
+01/29/22,01:53:00,B,00-17,abscess of prostate
+01/29/22,02:16:00,C,65-99,exudative retinopathy
+01/29/22,02:19:00,A,65-99,roseola infantum unspecified
+01/29/22,04:57:00,C,18-64,gouty arthropathy unspecified
+01/29/22,05:43:00,A,65-99,other specified pulmonary tuberculosis bacteriological or histological examination unknown at present
+01/29/22,06:12:00,A,00-17,unspecified eustachian tube disorder
+01/29/22,06:45:00,A,65-99,diverticulum of bladder
+01/29/22,06:49:00,C,65-99,tuberculous abscess of spinal cord tubercle bacilli not found by bacteriological or histological examination but tuberculosis confirmed by other methods inoculation of animals
+01/29/22,09:17:00,C,65-99,erythema first degree of elbow
+01/29/22,09:24:00,C,00-17,african trypanosomiasis unspecified
+01/29/22,11:31:00,C,18-64,animal drawn vehicle accident injuring pedestrian
+01/29/22,11:55:00,A,00-17,injury to axillary vein
+01/29/22,11:58:00,C,00-17,omsk hemorrhagic fever
+01/29/22,12:04:00,B,65-99,other occupational circumstances or maladjustment
+01/29/22,14:11:00,A,65-99,toxic effect of manganese and its compounds
+01/29/22,14:11:00,C,00-17,lichen unspecified
+01/29/22,14:45:00,B,65-99,crushing injury of hip
+01/29/22,15:56:00,C,00-17,other motor vehicle traffic accident involving collision with motor vehicle injuring other specified person
+01/29/22,16:16:00,B,18-64,intermittent explosive disorder
+01/29/22,16:36:00,B,65-99,stage ii necrotizing enterocolitis in newborn
+01/29/22,16:41:00,C,18-64,tuberculosis of epididymis tubercle bacilli found in sputum by microscopy
+01/29/22,16:53:00,C,18-64,malignant neoplasm of scapula and long bones of upper limb
+01/29/22,17:23:00,B,65-99,tuberculous oophoritis and salpingitis unspecified
+01/29/22,17:31:00,C,18-64,diverticulosis of colon without mention of hemorrhage
+01/29/22,18:26:00,A,18-64,other specified complications of pregnancy delivered with mention of postpartum complication
+01/29/22,19:52:00,C,00-17,other ureteric obstruction
+01/29/22,20:45:00,C,00-17,tuberculous meningitis bacteriological or histological examination unknown at present
+01/29/22,21:38:00,C,18-64,benign neoplasm of other specified sites of skin
+01/29/22,22:41:00,C,00-17,candidal otitis externa
+01/29/22,22:59:00,A,65-99,flushing
+01/30/22,01:27:00,C,65-99,encounter for insertion of intrauterine contraceptive device
+01/30/22,02:09:00,C,00-17,meningitis in sarcoidosis
+01/30/22,02:34:00,B,18-64,congenital night blindness
+01/30/22,02:39:00,B,18-64,multiple closed fractures involving both upper limbs and upper limb with rib s and sternum
+01/30/22,02:53:00,C,18-64,other specified constitutional states in development
+01/30/22,02:57:00,A,00-17,foreign body in digestive system unspecified
+01/30/22,05:22:00,C,18-64,other and unspecified malignant neoplasms of lymphoid and histiocytic tissue lymph nodes of inguinal region and lower limb
+01/30/22,06:33:00,B,18-64,bitten by zombie
+01/30/22,06:33:00,B,65-99,attacked by zombies
+01/30/22,06:35:00,B,65-99,bitten by zombie
+01/30/22,06:36:00,B,18-64,a zombie tried to eat my brain
+01/30/22,06:39:00,B,18-64,mauled by zombies
+01/30/22,06:39:00,B,65-99,a zombie tried to eat my brain
+01/30/22,06:40:00,B,18-64,mauled by zombies
+01/30/22,06:41:00,B,18-64,bite wound from zombie attack
+01/30/22,06:42:00,B,18-64,other joint derangement not elsewhere classified multiple sites
+01/30/22,06:42:00,B,18-64,brains
+01/30/22,06:46:00,B,18-64,a zombie attacked me and tried to eat my brain
+01/30/22,06:48:00,B,65-99,chased by zombies
+01/30/22,06:51:00,B,65-99,a zombie attacked me and tried to eat my brain
+01/30/22,06:53:00,B,18-64,bitten by zombie
+01/30/22,06:56:00,B,18-64,a zombie tried to eat my brain
+01/30/22,06:58:00,B,18-64,zombie bite
+01/30/22,07:00:00,B,65-99,zombie bite
+01/30/22,07:02:00,B,18-64,a zombie attacked me and tried to eat my brain
+01/30/22,07:04:00,B,18-64,brains
+01/30/22,07:05:00,B,18-64,a zombie attacked me and tried to eat my brain
+01/30/22,07:07:00,B,18-64,zombie bite
+01/30/22,07:07:00,B,18-64,a zombie chased me and tried to eat my brain
+01/30/22,07:08:00,B,18-64,zombies
+01/30/22,07:11:00,B,18-64,attacked by zombies
+01/30/22,07:14:00,B,18-64,bite wound from zombie attack
+01/30/22,07:20:00,B,65-99,a zombie chased me and tried to eat my brain
+01/30/22,07:21:00,B,18-64,zombies
+01/30/22,07:22:00,B,18-64,attacked and bitten by zombies
+01/30/22,07:23:00,B,65-99,brains
+01/30/22,07:23:00,B,65-99,attacked and bitten by zombies
+01/30/22,07:23:00,B,65-99,chased by zombies
+01/30/22,07:25:00,B,18-64,bite wound from zombie attack
+01/30/22,07:25:00,B,65-99,brains
+01/30/22,07:26:00,B,65-99,zombies
+01/30/22,07:32:00,B,18-64,mauled by zombies
+01/30/22,07:35:00,B,65-99,a zombie chased me and tried to eat my brain
+01/30/22,07:38:00,B,18-64,zombies
+01/30/22,07:39:00,B,18-64,bitten by zombie
+01/30/22,07:40:00,B,65-99,a zombie chased me and tried to eat my brain
+01/30/22,07:41:00,B,65-99,a zombie attacked me and tried to eat my brain
+01/30/22,07:42:00,B,65-99,mauled by zombies
+01/30/22,07:44:00,B,65-99,attacked by zombies
+01/30/22,07:45:00,B,65-99,attacked by zombies
+01/30/22,07:47:00,B,65-99,a zombie chased me and tried to eat my brain
+01/30/22,07:49:00,B,18-64,attacked and bitten by zombies
+01/30/22,07:52:00,B,18-64,a zombie chased me and tried to eat my brain
+01/30/22,07:55:00,B,18-64,bite wound from zombie attack
+01/30/22,07:57:00,B,65-99,bitten by zombie
+01/30/22,07:57:00,B,65-99,zombies
+01/30/22,07:58:00,B,65-99,bitten by zombie
+01/30/22,07:59:00,B,18-64,brains
+01/30/22,08:02:00,C,18-64,malignant neoplasm of cardia
+01/30/22,09:05:00,C,00-17,cor biloculare
+01/30/22,09:25:00,A,00-17,atherosclerosis of aorta
+01/30/22,09:33:00,B,18-64,anterior nasal diphtheria
+01/30/22,09:47:00,C,18-64,other abnormalities in shape or position of gravid uterus and of neighboring structures delivered with mention of postpartum complication
+01/30/22,10:51:00,B,18-64,open fractures involving skull or face with other bones with cerebral laceration and contusion with loss of consciousness of unspecified duration
+01/30/22,11:02:00,C,00-17,glaucoma associated with chamber angle anomalies
+01/30/22,13:13:00,C,65-99,moderate atrophy of the maxilla
+01/30/22,13:23:00,C,18-64,malignant carcinoid tumor of the large intestine unspecified portion
+01/30/22,14:09:00,A,00-17,gastric mucosal hypertrophy without mention of hemorrhage
+01/30/22,14:21:00,B,00-17,failure of lactation antepartum condition or complication
+01/30/22,15:40:00,C,00-17,acute reaction to foreign substance accidentally left during a procedure
+01/30/22,15:49:00,A,00-17,open fracture of five ribs
+01/30/22,17:31:00,A,18-64,open fractures involving skull or face with other bones with cerebral laceration and contusion with concussion unspecified
+01/30/22,19:41:00,A,65-99,maternal pyrexia during labor unspecified unspecified as to episode of care or not applicable
+01/30/22,19:47:00,C,00-17,tuberculosis of bladder unspecified
+01/30/22,19:53:00,A,65-99,other and unspecified prion disease of central nervous system
+01/30/22,20:59:00,B,00-17,unspecified keratitis
+01/30/22,21:38:00,A,65-99,other drugs and medicinal substances causing adverse effects in therapeutic use
+01/30/22,21:46:00,B,65-99,other injury into spleen without mention of open wound into cavity
+01/30/22,21:48:00,C,18-64,streptococcus infection in conditions classified elsewhere and of unspecified site streptococcus group a
+01/30/22,22:05:00,B,65-99,perinatal intestinal perforation
+01/30/22,23:29:00,B,65-99,unspecified abortion complicated by shock incomplete
+01/30/22,23:37:00,C,00-17,tuberculous pneumothorax unspecified
+01/30/22,23:56:00,A,65-99,adrenal hemorrhage of fetus or newborn
+01/31/22,01:16:00,B,00-17,cyst of bone localized unspecified
+01/31/22,03:16:00,B,65-99,late effect of toxic effects of nonmedical substances
+01/31/22,06:58:00,C,18-64,leptospiral meningitis aseptic
+01/31/22,07:30:00,A,00-17,mastodynia
+01/31/22,07:40:00,A,00-17,other and unspecified special symptoms or syndromes not elsewhere classified
+01/31/22,07:59:00,A,00-17,illegally induced abortion complicated by metabolic disorder complete
+01/31/22,08:32:00,A,65-99,nonsenile cataract unspecified
+01/31/22,08:46:00,B,18-64,pityriasis rubra pilaris
+01/31/22,09:14:00,C,65-99,cutaneous leishmaniasis ethiopian
+01/31/22,09:22:00,A,18-64,hypercalcemia
+01/31/22,09:52:00,C,00-17,acute on chronic graft versus host disease
+01/31/22,10:03:00,C,18-64,papanicolaou smear of anus with cytologic evidence of malignancy
+01/31/22,10:35:00,C,65-99,hypochondriasis
+01/31/22,11:53:00,B,18-64,infection due to gastric band procedure
+01/31/22,12:48:00,C,00-17,late effects of cerebrovascular disease dysarthria
+01/31/22,16:10:00,B,65-99,personal history of thrombophlebitis
+01/31/22,16:17:00,A,00-17,nevus non neoplastic
+01/31/22,16:44:00,B,18-64,mosquito borne hemorrhagic fever
+01/31/22,18:42:00,B,65-99,twin gestation monochorionic monoamniotic one placenta one amniotic sac
+01/31/22,20:33:00,A,65-99,other specified malignant neoplasm of skin site unspecified
+01/31/22,20:36:00,C,18-64,carpal tunnel syndrome
+01/31/22,21:31:00,B,18-64,accidental cut puncture perforation or hemorrhage during surgical operation
+01/31/22,22:11:00,C,00-17,pes anserinus tendinitis or bursitis

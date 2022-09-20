@@ -1,0 +1,6 @@
+chiefcomplaint_attribute,cc
+uniqueid_attribute,VISITID
+date_attribute,date
+time_attribute,time
+search_group_attributes,"hospcode agegroup"
+search_group_files,"..\Settings\SearchGroupFiles\tainted_coffee_results_hospcode_searchgroups.csv ..\Settings\SearchGroupFiles\age_search_groups_rolling.csv"

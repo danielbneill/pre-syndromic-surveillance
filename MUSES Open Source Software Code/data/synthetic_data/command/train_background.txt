@@ -1,0 +1,2 @@
+python train_background.py --data_file="../data/synthetic_data/processed_2021.csv" --dict_file="../data/synthetic_data/word_dict_full.txt" --num_static_topics=25 --static_iters=3000 --verbose=100 --checkpoint="../data/synthetic_data/checkpoint/static_2021_25topics.npz"
+python view_topics.py --checkpoint="../data/synthetic_data/checkpoint/static_2021_25topics.npz" --word_dict="../data/synthetic_data/word_dict_full.txt" --display_words=10
