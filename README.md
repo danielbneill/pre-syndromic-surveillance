@@ -16,7 +16,7 @@ Open source Python implementation of our Multidimensional Semantic Scan (MUSES) 
 
 References:
 
-Mallory Nobles, Ramona Lall, Robert W. Mathes, and Daniel B. Neill. Pre-syndromic surveillance for improved detection of emerging public health threats. Science Advances, 2022, accepted for publication.
+Mallory Nobles, Ramona Lall, Robert W. Mathes, and Daniel B. Neill. Pre-syndromic surveillance for improved detection of emerging public health threats. Science Advances, 2022, in press.
 
 Boyuan Chen, Yi Wei, and Daniel B. Neill. MUSES: A Pre-Syndromic Approach to Disease Surveillance: A Python Implementation, 2022.
 
