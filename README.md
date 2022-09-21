@@ -19,3 +19,5 @@ References:
 Mallory Nobles, Ramona Lall, Robert W. Mathes, and Daniel B. Neill. Pre-syndromic surveillance for improved detection of emerging public health threats. Science Advances, 2022, accepted for publication.
 
 Boyuan Chen, Yi Wei, and Daniel B. Neill. MUSES: A Pre-Syndromic Approach to Disease Surveillance: A Python Implementation, 2022.
+
+<a href="https://zenodo.org/badge/latestdoi/539107481"><img src="https://zenodo.org/badge/539107481.svg" alt="DOI"></a>
