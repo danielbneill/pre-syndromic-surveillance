@@ -1,0 +1,8 @@
+#merge novel and monitored clusters
+python merge_clusters.py --merge_on_duplicate_case_only="False" --cluster_dir="../data/synthetic_data/clusters" --merge_window=1 --similarity_threshold=0.95
+
+#visualize merged clusters
+python visualize.py --results_folder="../data/synthetic_data/clusters" --visualize_novel_merged="True" --visualize_monitored_merged="True" --monitored_topic_file="../data/synthetic_data/monitored_topics.csv" 
+
+#original clusters for comparison
+python visualize.py --results_folder="../data/synthetic_data/clusters" --visualize_novel_merged="False" --visualize_monitored_merged="False" --monitored_topic_file="../data/synthetic_data/monitored_topics.csv" 

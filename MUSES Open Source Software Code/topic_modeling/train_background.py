@@ -78,7 +78,7 @@ def main(args):
     Phi_dist = Phi_to_dist(Phi_count, beta)
     checkpoint_name = args.checkpoint
     np.savez(checkpoint_name, Phi=Phi_dist, model_type="StaticLDA")
-    print(f"Staitic checkpoint saved to {checkpoint_name}")
+    print(f"Static checkpoint saved to {checkpoint_name}")
 
 
 

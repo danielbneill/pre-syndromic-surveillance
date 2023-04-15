@@ -38,10 +38,10 @@ class SpatialScan:
     def scan(self, df, sg_lookup_dict, sg_list, Phi_b, K_prime, alpha, beta, static_iters, contrast_iters,
              word_dict, start_date, end_date, monitored_indices):
         # Initialize headers for caseline files
-        novel_caselines = pd.DataFrame(columns=["index", "score", "topic", "cc", "icd", "VISITID", "time", "date",
+        novel_caselines = pd.DataFrame(columns=["index", "score", "topic", "cc", "cc_processed", "icd", "VISITID", "time", "date",
                                           "sex", "agegroup", "hospcode", "word_dist"])
         novel_caselines.to_csv(self.novel_caseline_file, index=False, header=True)
-        monitored_caselines = pd.DataFrame(columns=["index", "score", "topic", "cc", "icd", "VISITID", "time", "date",
+        monitored_caselines = pd.DataFrame(columns=["index", "score", "topic", "cc", "cc_processed", "icd", "VISITID", "time", "date",
                                           "sex", "agegroup", "hospcode", "word_dist"])
         monitored_caselines.to_csv(self.monitored_caseline_file, index=False, header=True)
 
@@ -257,7 +257,7 @@ class SpatialScan:
                         print(f"Monitored cluster {highest_cluster_idx} appended. Length={len(highest_cluster)}; "
                               f"F={highest_F_S}; C={highest_C}; B={highest_B}.")
                         monitored_cluster_idx += 1
-                        highest_cluster = highest_cluster.reindex(columns=["index", "score", "topic", "cc", "icd",
+                        highest_cluster = highest_cluster.reindex(columns=["index", "score", "topic", "cc", "cc_processed", "icd",
                                             "VISITID", "time", "date", "sex", "agegroup", "hospcode", "word_dist"])
                         highest_cluster.to_csv(self.monitored_caseline_file, index=False, header=False, mode='a', encoding='utf-8')
 
@@ -267,7 +267,7 @@ class SpatialScan:
                         print(f"Novel cluster {highest_cluster_idx} appended. Length={len(highest_cluster)}; "
                               f"F={highest_F_S}; C={highest_C}; B={highest_B}.")
                         novel_cluster_idx += 1
-                        highest_cluster = highest_cluster.reindex(columns=["index", "score", "topic", "cc", "icd",
+                        highest_cluster = highest_cluster.reindex(columns=["index", "score", "topic", "cc", "cc_processed", "icd",
                                             "VISITID", "time", "date", "sex", "agegroup", "hospcode", "word_dist"])
                         highest_cluster.to_csv(self.novel_caseline_file, index=False, header=False, mode='a', encoding='utf-8')
 

@@ -45,6 +45,8 @@ parser.add_argument('--cluster_word_num', type=int, default=12)
 parser.add_argument('--topic_weight', type=str, default="True")
 parser.add_argument('--cluster_dir', type=str, default="../data/tainted_coffee/cluster")
 parser.add_argument('--concatenate_agegroup', type=str, default="False")
+parser.add_argument('--merged_cluster', type=str, default="False")
+parser.add_argument('--cluster_type', type=str, default="novel")
 
 FLAGS = parser.parse_args()
 
@@ -58,6 +60,11 @@ def main(args):
     else:
         raise Exception("Please give topic_weight a boolean value")
 
+    if args.cluster_type=="monitored" or args.cluster_type=="Monitored" or args.cluster_type=="MONITORED":
+        cluster_type = "monitored"
+    else:
+        cluster_type = "novel"
+        
     cluster_dir = args.cluster_dir
     pd.options.mode.chained_assignment = None
     if not os.path.exists(cluster_dir):
@@ -126,7 +133,10 @@ def main(args):
     concatenate_agegroup = False
     if args.concatenate_agegroup=="True" or args.concatenate_agegroup=="true" or args.concatenate_agegroup=="TRUE":
         concatenate_agegroup = True
-    process_clusters(args.cluster_dir, concatenate_agegroup)
+    merged_cluster = False 
+    if args.merged_cluster=="True" or args.merged_cluster=="true" or args.merged_cluster=="TRUE":
+        merged_cluster = True
+    process_clusters(args.cluster_dir, concatenate_agegroup, merged_cluster, cluster_type)
 
 
 if __name__ == '__main__':

@@ -4,17 +4,21 @@ from tkinter import messagebox
 from tkinter import ttk
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from sys import platform
 import os
 import time
 import numpy as np
 import uuid
 import argparse
+import tkinter
 
 parser = argparse.ArgumentParser(description='Visualization args parser')
 
 # Data files
 parser.add_argument('--results_folder', type=str, required = True)
 parser.add_argument('--monitored_topic_file', type=str, required = True)
+parser.add_argument('--visualize_novel_merged', type=str, default = "False")
+parser.add_argument('--visualize_monitored_merged', type=str, default = "False")
 
 FLAGS = parser.parse_args()
 
@@ -153,6 +157,8 @@ def read_settings(settings_file_name):
 
     result_folder_name = ''
     static_topics_file_name = ''
+    visualize_novel_merged = ''
+    visualize_monitored_merged = ''
 
     # Create new setting file if necesary
     if len(contents) != 2:
@@ -188,7 +194,7 @@ def read_settings(settings_file_name):
             message='Result folder not found! Please reselct the result folder')
         result_folder_name = select_file('folder')
 
-    return result_folder_name, static_topics_file_name
+    return result_folder_name, static_topics_file_name, visualize_novel_merged, visualize_monitored_merged
 
 # Save the current setting
 
@@ -225,11 +231,30 @@ def read_file(filename):
     return newlines
 
 # Loading the cluster (cluster stored as global variables)
+def load_clusters(result_folder_name, visualize_novel_merged, visualize_monitored_merged):
+    clusterlines_file_name =''
+    caselines_file_name=''
+    topiclines_file_name=''
+    mon_clusterlines_file_name=''
+    mon_caselines_file_name=''
+    mon_topiclines_file_name=''
 
-def load_clusters(result_folder_name):
-    clusterlines_file_name = result_folder_name + "\\novel_cluster_summary.txt"
-    caselines_file_name = result_folder_name + "\\novel_caselines.txt"
-    topiclines_file_name = result_folder_name + "\\novel_topicwords.txt"
+    if (visualize_novel_merged == False and (platform == "linux" or platform == "linux2" or platform == "darwin")):
+        clusterlines_file_name = result_folder_name + "/novel_cluster_summary.txt"
+        caselines_file_name = result_folder_name + "/novel_caselines.txt"
+        topiclines_file_name = result_folder_name + "/novel_topicwords.txt"
+    elif visualize_novel_merged == False and platform == "win32":
+        clusterlines_file_name = result_folder_name + "\\novel_cluster_summary.txt"
+        caselines_file_name = result_folder_name + "\\novel_caselines.txt"
+        topiclines_file_name = result_folder_name + "\\novel_topicwords.txt"
+    elif visualize_novel_merged == True and (platform == "linux" or platform == "linux2" or platform == "darwin"):
+        clusterlines_file_name = result_folder_name + "/merged_novel_cluster_summary.txt"
+        caselines_file_name = result_folder_name + "/merged_novel_caselines.txt"
+        topiclines_file_name = result_folder_name + "/merged_novel_topicwords.txt"
+    elif visualize_novel_merged == True and platform == "win32":
+        clusterlines_file_name = result_folder_name + "\\merged_novel_cluster_summary.txt"
+        caselines_file_name = result_folder_name + "\\merged_novel_caselines.txt"
+        topiclines_file_name = result_folder_name + "\\merged_novel_topicwords.txt"
 
     clusterlines = read_file(clusterlines_file_name)
     caselines = read_file(caselines_file_name)
@@ -285,9 +310,22 @@ def load_clusters(result_folder_name):
         if index in novel:
             novel[index].words_list.append([word, float(percent)])
 
-    mon_clusterlines_file_name = result_folder_name + "\\monitored_cluster_summary.txt"
-    mon_caselines_file_name = result_folder_name + "\\monitored_caselines.txt"
-    mon_topiclines_file_name = result_folder_name + "\\monitored_topicwords.txt"
+    if (visualize_monitored_merged == False and (platform == "linux" or platform == "linux2" or platform == "darwin")):
+        mon_clusterlines_file_name = result_folder_name + "/monitored_cluster_summary.txt"
+        mon_caselines_file_name = result_folder_name + "/monitored_caselines.txt"
+        mon_topiclines_file_name = result_folder_name + "/monitored_topicwords.txt"
+    elif visualize_monitored_merged == False and platform == "win32":
+        mon_clusterlines_file_name = result_folder_name + "\\monitored_cluster_summary.txt"
+        mon_caselines_file_name = result_folder_name + "\\monitored_caselines.txt"
+        mon_topiclines_file_name = result_folder_name + "\\monitored_topicwords.txt"
+    elif visualize_monitored_merged == True and (platform == "linux" or platform == "linux2" or platform == "darwin"):
+        mon_clusterlines_file_name = result_folder_name + "/merged_monitored_cluster_summary.txt"
+        mon_caselines_file_name = result_folder_name + "/merged_monitored_caselines.txt"
+        mon_topiclines_file_name = result_folder_name + "/merged_monitored_topicwords.txt"
+    elif visualize_monitored_merged == True and platform == "win32":
+        mon_clusterlines_file_name = result_folder_name + "\\merged_monitored_cluster_summary.txt"
+        mon_caselines_file_name = result_folder_name + "\\merged_monitored_caselines.txt"
+        mon_topiclines_file_name = result_folder_name + "\\merged_monitored_topicwords.txt"
 
     # Only read the monitored files if they exist
     if (os.path.exists(mon_caselines_file_name) and
@@ -569,7 +607,10 @@ def about():
 def fileinfo():
     new_window = Toplevel()
     new_window.geometry("300x200")
-    last_modified = time.ctime(os.path.getmtime(result_folder_name + "\\novel_cluster_summary.txt"))
+    if platform == "linux" or platform == "linux2" or platform == "darwin":
+        last_modified = time.ctime(os.path.getmtime(result_folder_name + "/novel_cluster_summary.txt"))
+    elif platform == "win32":
+        last_modified = time.ctime(os.path.getmtime(result_folder_name + "\\novel_cluster_summary.txt"))  
     time_label = Label(
         new_window,
         text=(
@@ -880,6 +921,14 @@ def main(args):
 
     result_folder_name = args.results_folder
     static_topics_file_name = args.monitored_topic_file
+    if args.visualize_novel_merged=="False" or args.visualize_novel_merged=="false" or args.visualize_novel_merged=="FALSE":
+        visualize_novel_merged = False
+    if args.visualize_novel_merged=="True" or args.visualize_novel_merged=="true" or args.visualize_novel_merged=="TRUE":
+        visualize_novel_merged = True
+    if args.visualize_monitored_merged=="False" or args.visualize_monitored_merged=="false" or args.visualize_monitored_merged=="FALSE":
+        visualize_monitored_merged = False
+    if args.visualize_monitored_merged=="True" or args.visualize_monitored_merged=="true" or args.visualize_monitored_merged=="TRUE":
+        visualize_monitored_merged = True 
 
     no_file_flag = False
     # Program exiting if no files found
@@ -903,7 +952,7 @@ def main(args):
         root.destroy()
         exit()
     else:
-        load_clusters(result_folder_name)
+        load_clusters(result_folder_name, visualize_novel_merged, visualize_monitored_merged)
 
     # Finishing Loading
     loading_label.destroy()

@@ -3,9 +3,18 @@ Helper functions for topic model training and spatial scan.
 """
 import pandas as pd
 import numpy as np
+import pdb
+import os
 from datetime import datetime
 from numba import njit
+from flashtext import KeywordProcessor
+from nltk.stem.wordnet import WordNetLemmatizer
 
+def minimum(a, b):
+    if a <= b:
+        return a
+    else:
+        return b
 
 def gen_bow_corpus(df_file, word_dict, sep=',', chunksize=100000):
     corpus = []
@@ -174,16 +183,29 @@ def get_caseline_in_sg(sg_h_nparray, sg, caseline_indices):
             count += 1
     return caseline_indices, count
 
+def remove_tense(string):
+    nulist = string.split(' ')
+    ulist = []
+    for word in nulist:
+        ulist.append(WordNetLemmatizer().lemmatize(word))
+    ustring = ' '.join(ulist)
+    return ustring
 
 def get_word_dist(caseline_df, word_dict, Phi, t, cluster_word_num, topic_weight=True):
-    word_dist_df = pd.DataFrame(columns={'word', 'weight'})
+    word_dist_df = pd.DataFrame(columns=['word', 'weight'])
     for cc in caseline_df:
-        word_list = cc.split("_")
+        word_list = cc
+        #added to permit processing of word lists that are separated by ' ' or '_'
+        if "_" in word_list:
+            word_list = cc.split("_")
+        else:
+            word_list = cc.split()
         for word in word_list:
-            if word not in word_dict.keys():
-                continue
-            word_idx = word_dict[word]
+            word = remove_tense(word)
             if topic_weight:
+                if word not in word_dict.keys():
+                    continue
+                word_idx = word_dict[word]
                 weight = Phi[t][word_idx]
             else:
                 weight = 1.0
@@ -213,6 +235,8 @@ def get_word_dist(caseline_df, word_dict, Phi, t, cluster_word_num, topic_weight
 
 
 def get_words_from_word_dist(word_dist):
+    if type(word_dist) == float:
+        word_dist = str(word_dist)
     result = ""
     weights = []
     array = word_dist.split("_")
@@ -355,20 +379,39 @@ def view_topics(Phi, word_dict_file, display_words):
 
 
 # concatenate_agegroup is only set to true if the agegroup contents look like 11-15, 66-70, etc.
-def process_clusters(cluster_dir, concatenate_agegroup):
+def process_clusters(cluster_dir, concatenate_agegroup, merged_cluster, cluster_type):
+    #novel
     novel_raw_file = cluster_dir + "/novel_raw.csv"
     novel_caselines_file = cluster_dir + "/novel_caselines.txt"
     novel_cluster_summary_file = cluster_dir + "/novel_cluster_summary.txt"
     novel_topicwords_file = cluster_dir + "/novel_topicwords.txt"
-    _process_cluster(novel_raw_file, novel_caselines_file, novel_cluster_summary_file, novel_topicwords_file,
-                     concatenate_agegroup)
-
+    #monitored:
     monitored_raw_file = cluster_dir + "/monitored_raw.csv"
     monitored_caselines_file = cluster_dir + "/monitored_caselines.txt"
     monitored_cluster_summary_file = cluster_dir + "/monitored_cluster_summary.txt"
     monitored_topicwords_file = cluster_dir + "/monitored_topicwords.txt"
-    _process_cluster(monitored_raw_file, monitored_caselines_file, monitored_cluster_summary_file,
-                     monitored_topicwords_file, concatenate_agegroup)
+    #merged novel:
+    merged_novel_raw_file = cluster_dir + "/merged_novel_raw.csv"
+    merged_novel_caselines_file = cluster_dir + "/merged_novel_caselines.txt"
+    merged_novel_cluster_summary_file = cluster_dir + "/merged_novel_cluster_summary.txt"
+    merged_novel_topicwords_file = cluster_dir + "/merged_novel_topicwords.txt"
+    #merged monitored:
+    merged_monitored_raw_file = cluster_dir + "/merged_monitored_raw.csv"
+    merged_monitored_caselines_file = cluster_dir + "/merged_monitored_caselines.txt"
+    merged_monitored_cluster_summary_file = cluster_dir + "/merged_monitored_cluster_summary.txt"
+    merged_monitored_topicwords_file = cluster_dir + "/merged_monitored_topicwords.txt"
+
+    if(merged_cluster==False):
+        _process_cluster(novel_raw_file, novel_caselines_file, novel_cluster_summary_file, novel_topicwords_file,
+                     concatenate_agegroup)
+        _process_cluster(monitored_raw_file, monitored_caselines_file, monitored_cluster_summary_file,
+                         monitored_topicwords_file, concatenate_agegroup)
+    elif(merged_cluster==True and cluster_type == "novel"):
+        _process_cluster(merged_novel_raw_file, merged_novel_caselines_file, merged_novel_cluster_summary_file, 
+                         merged_novel_topicwords_file, concatenate_agegroup)
+    elif(merged_cluster==True and cluster_type == "monitored"):
+        _process_cluster(merged_monitored_raw_file, merged_monitored_caselines_file, merged_monitored_cluster_summary_file, 
+                         merged_monitored_topicwords_file, concatenate_agegroup)
 
     import_static_topics_file = cluster_dir+"/import_static_topics.csv"
     import_static_topics = pd.DataFrame(columns=["topic_dist"])
@@ -438,3 +481,79 @@ def _process_cluster(raw_file, caselines_file, cluster_summary_file, topicwords_
     caseline_words.to_csv(topicwords_file, sep='\t', header=False, index=False)
     caselines.to_csv(caselines_file, sep='\t', header=False, index=False)
     cluster_summary.to_csv(cluster_summary_file, sep='\t', header=False, index=False)
+
+def case_overlap(working_i,working_j):
+    visithash = set()
+    resthash = set()
+    for _, row in working_i.iterrows():
+        if (row["VISITID"] != '' and not np.isnan(row["VISITID"])):
+            visithash.add(row["VISITID"])
+        resthash.add(row["cc"]+"__"+pd.to_datetime(row["date"] + ' ' + row["time"], format='%Y/%m/%d %H:%M').strftime('%Y-%m-%d %H:%M')+"__"+row["agegroup"])
+    for _, row in working_j.iterrows():
+        if (row["VISITID"] != '' and not np.isnan(row["VISITID"]) and row["VISITID"] in visithash):
+            return True
+        if (row["cc"]+"__"+pd.to_datetime(row["date"] + ' ' + row["time"], format='%Y/%m/%d %H:%M').strftime('%Y-%m-%d %H:%M')+"__"+row["agegroup"] in resthash):
+            return True
+    return False
+
+def time_gap(working_i,working_j):
+    date_time_i = pd.to_datetime(working_i['date'] + ' ' + working_i['time'], format='%Y/%m/%d %H:%M')
+    date_time_j = pd.to_datetime(working_j['date'] + ' ' + working_j['time'], format='%Y/%m/%d %H:%M')
+    diff1 = (date_time_i.min()-date_time_j.max()).total_seconds()/3600
+    diff2 = (date_time_j.min()-date_time_i.max()).total_seconds()/3600
+    return np.max([diff1,diff2,0])
+
+def topic_overlap(working_i,working_j):
+    if working_i.empty or working_j.empty:
+        return 0
+    weighthash = {}
+    totalweight = 0
+    words_i, weights_i = get_words_from_word_dist(working_i.iloc[0,:].loc['word_dist'])
+    words_i = words_i.split(" ")
+    for loc in range(len(words_i)):
+       weighthash[words_i[loc]] = weights_i[loc]
+    words_j, weights_j = get_words_from_word_dist(working_j.iloc[0,:].loc['word_dist'])
+    words_j = words_j.split(" ")
+    for loc in range(len(words_j)):
+        if words_j[loc] in weighthash:
+            totalweight += np.min([weighthash[words_j[loc]], weights_j[loc]])
+    return totalweight
+
+def merge_clusters(raw_file, cluster_dir, cluster_type, merge_on_duplicate_case_only, merge_window, similarity_threshold):
+
+    from scipy.sparse.csgraph import connected_components
+
+    if cluster_type=="monitored" or cluster_type=="Monitored" or cluster_type=="MONITORED":
+        merged_caseline_file = cluster_dir + "/merged_monitored_raw.csv"
+    elif cluster_type=="novel" or cluster_type=="Novel" or cluster_type=="NOVEL":
+        merged_caseline_file = cluster_dir + "/merged_novel_raw.csv"
+
+    working_caseline = pd.read_csv(raw_file, header=[0])
+
+    if (working_caseline.empty):
+        working_caseline.to_csv(merged_caseline_file)
+        return
+
+    maxIndex = working_caseline["index"].iloc[-1]
+    merge_edges = np.zeros(shape=(maxIndex+1,maxIndex+1))
+    for i in range(maxIndex):
+        for j in range(i+1,maxIndex+1):
+            working_i = working_caseline[working_caseline["index"]==i]
+            working_j = working_caseline[working_caseline["index"]==j]
+            if (time_gap(working_i,working_j) <= merge_window) and (not merge_on_duplicate_case_only or case_overlap(working_i,working_j)) and (topic_overlap(working_i,working_j) >= similarity_threshold):
+                merge_edges[i,j] = 1
+    cc = connected_components(merge_edges)
+    num_cc = cc[0]
+    cc = cc[1]
+    new_caseline = pd.DataFrame(columns=working_caseline.columns)
+    for thecomponent in range(num_cc):
+        indices = np.asarray(cc == thecomponent).nonzero()[0].tolist()
+        rows = working_caseline[working_caseline["index"].apply(lambda x: x in indices)].copy()
+        rows["index"] = thecomponent
+        rows["topic"] = rows.loc[rows["score"].idxmax(),"topic"]
+        rows["score"] = rows["score"].max()
+        del rows["word_dist"]
+        rows.drop_duplicates(inplace=True)
+        rows["word_dist"] = get_word_dist(rows["cc_processed"], None, None, None, None, topic_weight=False)
+        new_caseline = pd.concat([new_caseline,rows],ignore_index=True)
+    new_caseline.to_csv(merged_caseline_file,sep=',', header=True, index=False)
